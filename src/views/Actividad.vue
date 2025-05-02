@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Reconocimiento de aspectos asociados al muestreo de variables ambientales.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Fortalecer las habilidades para realizar muestreo de variables ambientales que tienen incidencia en los agroecosistemas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -28,29 +29,29 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Uno de los aspectos que debe contener un plan de muestreo es?',
+          imagen: require('@/assets/actividad/imagen1.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Información básica del lugar de muestreo: ubicación, tipo de agroecosistema, variable ambiental a muestrear (agua, suelo). ',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'El día que se entregarán los resultados.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Nombre del analista del laboratorio.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Cantidad de hectáreas que tiene la finca.',
               esCorrecta: false,
             },
           ],
@@ -59,29 +60,31 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'Una muestra puntual de agua se define como:',
+          imagen: require('@/assets/actividad/imagen1.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Toma de varias muestras en la sección transversal de un río.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto:
+                'Toma de muestras de agua cada cierto tiempo en un mismo punto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto:
+                'Muestra representativa en la que el tiempo y lugar (espacio) no influyen significativamente en el resultado de la muestra. ',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Toma de muestras en el terreno dependiendo del cultivo.',
               esCorrecta: false,
             },
           ],
@@ -90,29 +93,32 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿En un muestreo simple para suelos se tiene en cuenta el siguiente aspecto?',
+          imagen: require('@/assets/actividad/imagen1.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'Se debe distribuir en el terreno y tomar diferentes submuestras de suelo.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'El productor o técnico distribuye el terreno en partes iguales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Se debe tomar aproximadamente 9 muestras por hectárea.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+              texto:
+                'El productor o el técnico de campo determina, de acuerdo con las necesidades, el punto donde se tomará la muestra constituida por una única muestra puntual. ',
               esCorrecta: true,
             },
           ],
@@ -122,28 +128,30 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Para la localización de los puntos de muestreo en suelos, en el muestreo aleatorio estratificado se debe...?',
+          imagen: require('@/assets/actividad/imagen1.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Tomar una única muestra en cualquier punto del terreno.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto:
+                'Dividir el área en subgrupos que presenten homogeneidad en el terreno. ',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Tomar las muestras siguiendo un patrón regular.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Separar los puntos cada 50 metros sin importar el área del terreno.',
               esCorrecta: false,
             },
           ],
@@ -152,30 +160,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Los tipos de muestreo en suelos son...?',
+          imagen: require('@/assets/actividad/imagen2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Irregular en forma de N, S, X o W; no sistemático zigzag, sistemático, aleatorio estratificado y aleatorio simple. ',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Aleatorio simple, compuesto e integrado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'No sistemático zigzag, integrado y simple.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Aleatorio simple.',
               esCorrecta: false,
             },
           ],
@@ -184,29 +191,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Los tipos de muestreo en agua son...?',
+          imagen: require('@/assets/actividad/imagen2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Muestreo puntual y de varias horas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Muestreo en zigzag y aleatorio.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Muestreo manual y automático. ',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Muestreo para aguas superficiales y aguas residuales.',
               esCorrecta: false,
             },
           ],
@@ -215,29 +221,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Las muestras de agua se dividen en...?',
+          imagen: require('@/assets/actividad/imagen2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Disturbada y no disturbada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Puntual, compuesta e integrada. ',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Simple e integrada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Aleatoria, sistemática y por horas.',
               esCorrecta: false,
             },
           ],
@@ -247,28 +252,29 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'Los métodos para medir el caudal en una fuente hídrica son...?',
+          imagen: require('@/assets/actividad/imagen2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Área-velocidad, volumétrico, flotadores, dilución con trazadores, estructuras aforadas. ',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Área-velocidad, volumétrico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Por sección transversal del río o quebrada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Cálculo de velocidad y profundidad.',
               esCorrecta: false,
             },
           ],
@@ -277,20 +283,31 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Cuál es el objetivo de preservar una muestra?',
+          imagen: require('@/assets/actividad/imagen3.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Garantizar que la muestra cambie sus propiedades al llegar al laboratorio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Mantener las condiciones 6 horas antes del análisis.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Mantener las condiciones de la muestra hasta llegar al laboratorio para ser analizada. ',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Cambiar las propiedades fisicoquímicas de la muestra.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -299,19 +316,30 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Estos muestreos pueden complementar el análisis de variables ambientales desde el punto de vista hidrobiológico?',
+          imagen: require('@/assets/actividad/imagen3.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Muestreo de textura y estructura del suelo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Muestreo de fertilizantes.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Muestreo de trazadores y metales pesados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Muestreo en comunidades hidrobiológicas y de macroinvertebrados acuáticos. ',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -320,8 +348,8 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'El muestreo compuesto consiste en tomar una única muestra puntual determinada por el técnico, sin mezclar submuestras.',
+          imagen: require('@/assets/actividad/imagen3.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -341,8 +369,8 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'Las muestras no disturbadas de suelo deben conservar la estructura original del perfil edáfico.',
+          imagen: require('@/assets/actividad/imagen3.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -362,8 +390,8 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'La cadena de custodia garantiza la trazabilidad y conservación de las muestras desde la recolección hasta su análisis en laboratorio.',
+          imagen: require('@/assets/actividad/imagen4.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -383,8 +411,8 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'El muestreo sistemático requiere dividir el terreno en estratos homogéneos antes de ubicar los puntos.',
+          imagen: require('@/assets/actividad/imagen4.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -404,8 +432,8 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'El muestreo manual de agua permite al personal observar directamente características como color, olor y presencia de flotantes.',
+          imagen: require('@/assets/actividad/imagen4.svg'),
           barajarRespuestas: true,
           opciones: [
             {

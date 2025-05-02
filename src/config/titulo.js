@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Muestreo de variables Ambientales en agroecosistemas'
