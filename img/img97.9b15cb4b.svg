@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="186.002" height="82.254" viewBox="0 0 186.002 82.254">
+  <g id="Group_1113009" data-name="Group 1113009" transform="translate(-391 -7433.996)">
+    <rect id="Rectangle_406002" data-name="Rectangle 406002" width="175.002" height="74" transform="translate(402 7442.25)" fill="#c1dbad"/>
+    <g id="Rectangle_406003" data-name="Rectangle 406003" transform="translate(391 7433.996)" fill="#fbfbf9" stroke="#000" stroke-width="0.5">
+      <rect width="182.002" height="76" stroke="none"/>
+      <rect x="0.25" y="0.25" width="181.502" height="75.5" fill="none"/>
+    </g>
+    <g id="Group_1113003" data-name="Group 1113003" transform="translate(418 7450.996)">
+      <text id="V_Qi_n_Qp" data-name="V * Qi
+n * Qp" transform="translate(63)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-19.578" y="15">V * Qi</tspan><tspan x="-21.395" y="39">n * Qp</tspan></text>
+      <text id="Vi_" data-name="Vi =" transform="translate(0 12)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-26.313" y="15">Vi =</tspan></text>
+      <line id="Line_575" data-name="Line 575" x2="65.949" transform="translate(62.539 21.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

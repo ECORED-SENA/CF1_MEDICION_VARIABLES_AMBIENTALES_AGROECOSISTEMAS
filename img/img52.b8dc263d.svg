@@ -1,0 +1,40 @@
+<svg id="Group_1111500" data-name="Group 1111500" xmlns="http://www.w3.org/2000/svg" width="505" height="275" viewBox="0 0 505 275">
+  <g id="Rectangle_406415" data-name="Rectangle 406415" fill="#fff" stroke="#12263f" stroke-width="1">
+    <rect width="505" height="275" stroke="none"/>
+    <rect x="0.5" y="0.5" width="504" height="274" fill="none"/>
+  </g>
+  <g id="Group_1111499" data-name="Group 1111499" transform="translate(6 13)">
+    <g id="Ellipse_11780" data-name="Ellipse 11780" transform="translate(8.949 15.5)" fill="#fcf7d4" stroke="#12263f" stroke-width="2">
+      <circle cx="68" cy="68" r="68" stroke="none"/>
+      <circle cx="68" cy="68" r="67" fill="none"/>
+    </g>
+    <g id="Ellipse_11781" data-name="Ellipse 11781" transform="translate(242.355 36.957)" fill="#fcf7d4" stroke="#12263f" stroke-width="2">
+      <circle cx="47.044" cy="47.044" r="47.044" stroke="none"/>
+      <circle cx="47.044" cy="47.044" r="46.044" fill="none"/>
+    </g>
+    <g id="Ellipse_11782" data-name="Ellipse 11782" transform="translate(431.811 56.957)" fill="#fcf7d4" stroke="#12263f" stroke-width="2">
+      <circle cx="27.044" cy="27.044" r="27.044" stroke="none"/>
+      <circle cx="27.044" cy="27.044" r="26.044" fill="none"/>
+    </g>
+    <line id="Line_675" data-name="Line 675" y2="167" transform="translate(77.449)" fill="none" stroke="#12263f" stroke-width="2" stroke-dasharray="4"/>
+    <line id="Line_678" data-name="Line 678" y2="115.534" transform="translate(289.744 26.233)" fill="none" stroke="#12263f" stroke-width="2" stroke-dasharray="4"/>
+    <line id="Line_676" data-name="Line 676" x1="163.449" transform="translate(0 84)" fill="none" stroke="#12263f" stroke-width="2" stroke-dasharray="4"/>
+    <line id="Line_677" data-name="Line 677" x1="119.685" transform="translate(229.556 84.346)" fill="none" stroke="#12263f" stroke-width="2" stroke-dasharray="4"/>
+    <path id="Union_15" data-name="Union 15" d="M32.5,33H0V12H32.5V0l20,22.5L32.5,45Z" transform="translate(170.899 61.847)" fill="#928219"/>
+    <path id="Union_16" data-name="Union 16" d="M32.5,33H0V12H32.5V0l20,22.5L32.5,45Z" transform="translate(364.649 61.847)" fill="#928219"/>
+    <g id="Rectangle_406413" data-name="Rectangle 406413" transform="translate(77.949 176.5)" fill="#fefbea" stroke="#12263f" stroke-width="1">
+      <rect width="198" height="73" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="197" height="72" rx="7.5" fill="none"/>
+    </g>
+    <g id="Rectangle_406414" data-name="Rectangle 406414" transform="translate(295.949 176.5)" fill="#fefbea" stroke="#12263f" stroke-width="1">
+      <rect width="198" height="73" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="197" height="72" rx="7.5" fill="none"/>
+    </g>
+    <text id="Dividir_en_cuatro_partes_los_residuos_sólidos_y_tomar_las_dos_partes_opuestas." data-name="Dividir en cuatro partes los residuos sólidos y tomar las dos partes opuestas." transform="translate(86.949 187.5)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="13">Dividir en cuatro partes los </tspan><tspan x="0" y="31">residuos sólidos y tomar las </tspan><tspan x="0" y="49">dos partes opuestas.</tspan></text>
+    <text id="Formar_una_nueva_masa_y_repetir_la_operación_hasta_obtener_el_volumen_deseado._" data-name="Formar una nueva masa y repetir la operación hasta obtener el volumen deseado. " transform="translate(304.949 187.5)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="13">Formar una nueva masa y </tspan><tspan x="0" y="31">repetir la operación hasta </tspan><tspan x="0" y="49">obtener el volumen deseado. </tspan></text>
+    <text id="_1" data-name="1" transform="translate(304.949 56.5)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-4.016" y="13">1</tspan></text>
+    <text id="_1-2" data-name="1" transform="translate(49.949 53.5)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-4.016" y="13">1</tspan></text>
+    <text id="_2" data-name="2" transform="translate(96.949 95.5)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-4.016" y="13">2</tspan></text>
+    <text id="_2-2" data-name="2" transform="translate(266.949 90.5)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-4.016" y="13">2</tspan></text>
+  </g>
+</svg>
