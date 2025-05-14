@@ -407,92 +407,93 @@
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img38.png", alt="" style="max-width: 350px").m-auto
 
-    .row.fondo_img
-      .caja-titulos-tercer-nivel.mb-5.ajuste__titulo_1.ajuste__titulo_movil_1(data-aos="fade-right")
-        .col-lg-auto
-          figure
-            img(src="@/assets/curso/tema1/img12.svg" style="max-width: 60px").m-auto
-        .col
-          h3 Técnicas de muestreo de suelo
+    .fondo_img
+      .px-5
+        .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+          .col-lg-auto
+            figure
+              img(src="@/assets/curso/tema1/img12.svg" style="max-width: 60px").m-auto
+          .col
+            h3 Técnicas de muestreo de suelo
+        
+        p.mb-4.espacios__moviles  Para llevar a cabo una <strong>toma de muestra de suelo adecuada</strong>, es fundamental seguir una serie de pasos técnicos que aseguren la representatividad y calidad de la muestra. A continuación, se detallan las etapas recomendadas:
+        
+        .row
+          .col-xl-4(data-aos="fade-right")
+            figure.d-none.d-xl-block
+              img(src='@/assets/curso/tema1/img40.png', alt='' style="max-width: 300px").m-auto
+          .col-xl-8(data-aos="fade-left")
+            SlyderF(columnas="col-lg-6 col-xl-4")
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/img41.svg' style="max-width: 90px").m-auto
+                h5.mb-3 Delimitación del terreno
+                p.mb-0 Definir claramente los límites del área que será muestreada.
+
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/img42.svg' style="max-width: 90px").m-auto
+                h5.mb-3 Consideración de características del terreno
+                p.mb-0 Tener en cuenta topografía, tipo de cultivo y color del suelo para identificar variabilidad.
+
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/img43.svg' style="max-width: 90px").m-auto
+                h5.mb-3 Determinación de la metodología
+                p.mb-0 Elegir el tipo de muestreo más adecuado según los objetivos y condiciones del terreno.
+
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/img44.svg' style="max-width: 90px").m-auto
+                h5.mb-3 Limpieza superficial
+                p.mb-0 Retirar residuos orgánicos y materiales superficiales del punto a muestrear.
+
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/img45.svg' style="max-width: 90px").m-auto
+                h5.mb-3 Extracción de la muestra
+                p.mb-0 Realizar excavación o calicata según la profundidad definida por el tipo de cultivo y los horizontes del suelo.
+              
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/img46.svg' style="max-width: 90px").m-auto
+                h5.mb-3 Eliminación de impurezas
+                p.mb-0 Quitar piedras, raíces u otros elementos que puedan alterar la muestra.
+
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/img47.svg' style="max-width: 90px").m-auto
+                h5.mb-3 Homogeneización
+                p.mb-0 Mezclar bien el material recolectado para obtener una muestra uniforme.
+
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    <!--img(src='@/assets/curso/tema1/img48.svg' style="max-width: 90px").m-auto-->
+                h5.mb-3 Técnica de cuarteo
+                p.mb-0 Aplicar la técnica hasta obtener una muestra final de aproximadamente 1 kg.
+
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/img48.svg' style="max-width: 90px").m-auto
+                h5.mb-3 Embolsado
+                p.mb-0 Colocar la muestra en una bolsa plástica limpia, adecuada para su conservación.
+
+              .tarjeta.color-acento-botones.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/img49.svg' style="max-width: 90px").m-auto
+                h5.mb-3 Rotulado
+                p.mb-0 Identificar la muestra con etiqueta que incluya ubicación, fecha, profundidad y código.
       
-      p.mb-4.espacios__moviles  Para llevar a cabo una <strong>toma de muestra de suelo adecuada</strong>, es fundamental seguir una serie de pasos técnicos que aseguren la representatividad y calidad de la muestra. A continuación, se detallan las etapas recomendadas:
-      
-      .row
-        .col-xl-4(data-aos="fade-right")
-          figure.d-none.d-xl-block
-            img(src='@/assets/curso/tema1/img40.png', alt='' style="max-width: 300px").m-auto
-        .col-xl-8(data-aos="fade-left")
-          SlyderF(columnas="col-lg-6 col-xl-4")
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema1/img41.svg' style="max-width: 90px").m-auto
-              h5.mb-3 Delimitación del terreno
-              p.mb-0 Definir claramente los límites del área que será muestreada.
-
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema1/img42.svg' style="max-width: 90px").m-auto
-              h5.mb-3 Consideración de características del terreno
-              p.mb-0 Tener en cuenta topografía, tipo de cultivo y color del suelo para identificar variabilidad.
-
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema1/img43.svg' style="max-width: 90px").m-auto
-              h5.mb-3 Determinación de la metodología
-              p.mb-0 Elegir el tipo de muestreo más adecuado según los objetivos y condiciones del terreno.
-
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema1/img44.svg' style="max-width: 90px").m-auto
-              h5.mb-3 Limpieza superficial
-              p.mb-0 Retirar residuos orgánicos y materiales superficiales del punto a muestrear.
-
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema1/img45.svg' style="max-width: 90px").m-auto
-              h5.mb-3 Extracción de la muestra
-              p.mb-0 Realizar excavación o calicata según la profundidad definida por el tipo de cultivo y los horizontes del suelo.
-            
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema1/img46.svg' style="max-width: 90px").m-auto
-              h5.mb-3 Eliminación de impurezas
-              p.mb-0 Quitar piedras, raíces u otros elementos que puedan alterar la muestra.
-
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema1/img47.svg' style="max-width: 90px").m-auto
-              h5.mb-3 Homogeneización
-              p.mb-0 Mezclar bien el material recolectado para obtener una muestra uniforme.
-
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  <!--img(src='@/assets/curso/tema1/img48.svg' style="max-width: 90px").m-auto-->
-              h5.mb-3 Técnica de cuarteo
-              p.mb-0 Aplicar la técnica hasta obtener una muestra final de aproximadamente 1 kg.
-
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema1/img48.svg' style="max-width: 90px").m-auto
-              h5.mb-3 Embolsado
-              p.mb-0 Colocar la muestra en una bolsa plástica limpia, adecuada para su conservación.
-
-            .tarjeta.color-acento-botones.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema1/img49.svg' style="max-width: 90px").m-auto
-              h5.mb-3 Rotulado
-              p.mb-0 Identificar la muestra con etiqueta que incluya ubicación, fecha, profundidad y código.
-    
     .row.fondo_color_3
       p.mb-4 La siguiente figura ilustra la técnica de cuarteo, un método utilizado para reducir de manera representativa el volumen de una muestra de residuos sólidos.
       .row.mb-5(data-aos="fade-up")
@@ -1559,11 +1560,6 @@
         a.boton.color-acento-botones(:href="obtenerLink('/downloads/Preservacion_muestras_agua.pdf')" target="_blank")
           span Descargar
           i.fas.fa-file-download
-
-        
-    
-    
- 
 
 </template>
 
