@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Muestreo de variable ambientales
+      h1 Muestreo de variables ambientales
 
     <!-- BLOQUE 0 -->
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.ajuste___1(data-aos="fade-up")
@@ -20,7 +20,7 @@
         .bloque-texto-b.color-primario.mb-4(data-aos="fade-right")
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h3.mb-0 Para el plan del muestreo, es necesario precisar los objetivos que permitan un óp¬timo proceso de recolección de la información necesaria para la representación del lugar de muestreo, precisando.
+            h3.mb-0 Para el plan del muestreo, es necesario precisar los objetivos que permitan un óptimo proceso de recolección de la información necesaria para la representación del lugar de muestreo, precisando.
             i.fas.fa-quote-right
         .row.align-items-center.estilo__caja_3(data-aos="fade-right")
           .col-xl-auto
@@ -29,7 +29,7 @@
           .col-xl
             <ul class="fa-ul estilo__li">
               <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>El área o lugar donde se realizará el muestreo.</li>
-              <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Objetivos del plan de muestro.</li>
+              <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Objetivos del plan de muestreo.</li>
               <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Tipos de muestreo según los objetivos definidos.</li>
               <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Determinación de puntos de muestreo.</li>
               <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Procedimientos de campo.</li>
@@ -44,7 +44,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Consideraciones generales del plan de muestreo
 
-    p.mb-3 El plan de muestreo debe contener mínimo los siguientes aspectos: 
+    p.mb-3 El plan de muestreo debe contener como mínimo, los siguientes aspectos: 
 
     .row.fondo_color_1
       .row.align-items-center
@@ -122,7 +122,7 @@
               p.mb-0 Es el método más sencillo y común. Se toman varias submuestras en patrón aleatorio (en zig-zag), las cuales se mezclan completamente. Luego, mediante la técnica de cuarteo, se obtiene una muestra representativa de aproximadamente 1 kg. Ideal para representar uniformemente un área.
             .col-lg-6
               .titulo-sexto.color-acento-contenido.mb-2
-              figure.d-none.d-lg-block
+              figure
                 img(src='@/assets/curso/tema1/img9.svg', alt='' style="max-width: 500px").m-auto
 
           .row.h-100.justify-content-center.align-items-center
@@ -147,7 +147,7 @@
         figure
           img(src="@/assets/curso/tema1/img12.svg" style="max-width: 60px").m-auto
       .col
-        h3 Localización puntos de muestreo en suelos
+        h3 Localización de puntos de muestreo en suelos
 
     .row.fondo_color_2
       .row.align-items-center.mb-4
@@ -158,7 +158,7 @@
               figure.d-none.d-xl-block
                 img(src="@/assets/curso/tema1/img14.svg", alt="" style="max-width: 90px").m-auto 
             .col-lg
-              p.mb-0 En el contexto del presente curso de formación, la medición se llevará a cabo en un <strong>agroecosistema</strong>, es decir, un ecosistema modificado por la intervención humana con fines agropecuarios. Esto puede incluir una finca, lote, terreno de un productor o de una asociación de productores agropecuarios, siempre que se practique manejo agroecológico o producción ecológica.
+              p.mb-0 En el contexto del presente curso de formación, la medición se llevará a cabo en un <strong>agroecosistema</strong>, es decir, un ecosistema modificado por la intervención humana con fines agropecuarios. Esto puede incluir una finca, lote o terreno de un productor o de una asociación de productores agropecuarios, siempre que se practique manejo agroecológico o producción ecológica.
         .col-xl-auto
           figure.d-none.d-xl-block(data-aos="fade-left")
             img(src="@/assets/curso/tema1/img15.svg", alt="" style="max-width: 300px").m-auto
@@ -198,7 +198,7 @@
           figure
             img(src="@/assets/curso/tema1/img12.svg" style="max-width: 60px").m-auto
         .col
-          h3 Ubicación puntos en muestreo aleatorio simple
+          h3 Ubicación de puntos en muestreo aleatorio simple
 
       .row.align-items-center.mb-5
         .col-xl
@@ -930,7 +930,7 @@
         .bloque-texto-b.color-primario.mb-4.ajuste__cita_3
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h3 Para otros parámetros más específicos, como plaguicidas y metales pesados, se aconseja realizar dos (2) muestreos anuales en los puntos previamente establecidos para tal fin .
+            h3 Para otros parámetros más específicos, como plaguicidas y metales pesados, se aconseja realizar dos (2) muestreos anuales en los puntos previamente establecidos para tal fin.
             i.fas.fa-quote-right
       .col-xl-auto
         figure.d-none.d-xl-block(data-aos="fade-left")
@@ -1029,7 +1029,7 @@
           figure.d-none.d-xl-block(data-aos="fade-right")
             img(src="@/assets/curso/tema1/img56.svg", alt="" style="max-width: 85px").m-auto
         .col-xl
-          p.mb-0.espacios__moviles Para el caso del método área velocidad, se requiere conocer inicialmente el ancho de la fuente hídrica y dependiendo de su longitud, se divide en varias secciones, además es necesario conocer las profundidades de cada sección, con estos datos se procede a calcular el área de la sección transversal. 
+          p.mb-0.espacios__moviles Para el caso del método área-velocidad, se requiere conocer inicialmente el ancho de la fuente hídrica y, dependiendo de su longitud, se divide en varias secciones. Además es necesario conocer las profundidades de cada sección; con estos datos se procede a calcular el área de la sección transversal. 
 
       .row.align-items-center.mb-5(data-aos="fade-up")
         .col-xl-2
@@ -1279,8 +1279,8 @@
             img(src="@/assets/curso/tema1/img119.svg", alt="" style="max-width: 420px").m-auto
         .col-xl
           <ul class="fa-ul estilo__li">
-            <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Empacar la muestra en el recipiente requerido (Plástico o Vidrio), y aplicar el reactivo conservante dependiendo del parámetro a analizar.</li>
-            <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Adicionalmente se debe realizar la preservación de la muestra con frío entre 4ºC y 6ºC, por lo cual en los muestreos se debe contar con nevera portátil, hielo o geles refrigerantes.</li>
+            <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Empacar la muestra en el recipiente requerido (plástico o vidrio), y aplicar el reactivo conservante dependiendo del parámetro a analizar.</li>
+            <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Adicionalmente, se debe realizar la preservación de la muestra con frío entre 4ºC y 6ºC, por lo cual en los muestreos se debe contar con nevera portátil, hielo o geles refrigerantes.</li>
           </ul>
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
@@ -1531,18 +1531,18 @@
               img(src="@/assets/curso/tema1/img143.png", alt="" style="max-width: 300px").m-auto
           .col-xl
             <ul class="fa-ul estilo__li">
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Cámara fotográfica</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>GPS</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Red tipo Surber</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Acorazonador (ideal para sustratos lodosos)</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Draga Peterson</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Pinceles de cerda suave y pinzas entomológicas</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Lupa</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Frascos de plástico de boca ancha (500 ml, doble rosca)</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Bolsas de cierre hermético</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Frasco lavador</li>
-              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Formatos de campo</li>
-              <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Formato de custodia</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Cámara fotográfica.</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>GPS.</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Red tipo Surber.</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Acorazonador (ideal para sustratos lodosos).</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Draga Peterson.</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Pinceles de cerda suave y pinzas entomológicas.</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Lupa.</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Frascos de plástico de boca ancha (500 ml, doble rosca).</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Bolsas de cierre hermético.</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Frasco lavador.</li>
+              <li class="mb-1"><span class="fa-li "><i class="fas fa-leaf"></i></span>Formatos de campo.</li>
+              <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Formato de custodia.</li>
             </ul>
       .col-xl-auto(data-aos="fade-left")
         figure.d-none.d-xl-block

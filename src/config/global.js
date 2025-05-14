@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Muestreo de variables Ambientales en agroecosistemas',
+    Name: 'Muestreo de variables ambientales en agroecosistemas',
     Description:
       'El  componente formativo sobre muestreo de variables ambientales en agroecosistemas, centrado en suelo, agua y comunidades hidrobiológicas. Expone planes de muestreo, técnicas, herramientas, protocolos y conservación de muestras. Además, proporciona ejemplos de formatos, equipos y normativas vigentes. Su objetivo es fortalecer habilidades para recolectar datos ambientales con criterios técnicos y normativos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -164,7 +164,7 @@ export default {
     {
       termino: 'Variables ambientales',
       significado:
-        'representación cualitativa o cuantitativa asignada a un aspecto ambiental, que permite observar algún tipo de variación al realizar la medición. el propósito de la medición es conocer la afectación o impacto de las actividades productivas del agroecosistema sobre el medio ambiente y cómo estas variables pueden afectar a otras con las que están relacionadas.',
+        'representación cualitativa o cuantitativa asignada a un aspecto ambiental, que permite observar algún tipo de variación al realizar la medición. El propósito de la medición es conocer la afectación o impacto de las actividades productivas del agroecosistema sobre el medio ambiente y cómo estas variables pueden afectar a otras con las que están relacionadas.',
     },
   ],
   referencias: [

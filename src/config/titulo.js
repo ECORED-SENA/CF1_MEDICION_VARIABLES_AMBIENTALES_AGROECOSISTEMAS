@@ -1,1 +1,1 @@
-module.exports = 'Muestreo de variables Ambientales en agroecosistemas'
+module.exports = 'Muestreo de variables ambientales en agroecosistemas'

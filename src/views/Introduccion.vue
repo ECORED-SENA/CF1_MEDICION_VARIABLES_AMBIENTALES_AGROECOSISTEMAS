@@ -26,7 +26,7 @@
             figure.d-none.d-xl-block
               img(src="@/assets/curso/intro/img3.svg", alt="" style="max-width: 300px").m-auto
     
-    .row.align-items-center.estilo__caja_2(data-aos="fade-up")
+    .row.align-items-center.estilo__caja_2(data-aos="zoom-in")
       .col-xl
         p.mb-0 Con esta formación, se busca que el aprendiz comprenda el impacto de las variables ambientales en los agroecosistemas, y adquiera las habilidades necesarias para monitorearlas de forma rigurosa y sistemática. De este modo, se promueve una gestión ambiental más responsable, orientada a la sostenibilidad y al mejoramiento continuo de los procesos agropecuarios.
       .col-xl-auto
