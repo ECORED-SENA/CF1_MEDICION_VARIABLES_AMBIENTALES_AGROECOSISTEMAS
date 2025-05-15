@@ -48,8 +48,7 @@
 
     .fondo_color_1
       .px-5
-        .row.align-items-center
-          .col-xl-1
+        .row.align-items-center.justify-content-center
           .col-xl-10
             .row.align-items-center.estilo__caja_4(data-aos="fade-up")
               .col-xl-auto
@@ -92,17 +91,17 @@
                       span g
                     | Número mínimo de puntos de muestreo requeridos según el tipo de muestreo.
 
-      Separador
-      <!-- BLOQUE 2 -->
-      #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 1.2 Muestreo en suelos
+        Separador
+        <!-- BLOQUE 2 -->
+        #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.2 Muestreo en suelos
 
-      .row.align-items-center.mb-5
-        .col-xl-auto
-          figure.d-none.d-xl-block(data-aos="fade-right")
-            img(src="@/assets/curso/tema1/img6.svg", alt="" style="max-width: 300px").m-auto
-        .col-xl
-          p.mb-0 El muestreo de suelos es una etapa crucial para obtener información representativa del terreno y tomar decisiones adecuadas en cuanto al manejo agrícola o ambiental. Existen diferentes métodos de muestreo, cada uno con características específicas que se adaptan según la homogeneidad del terreno, el objetivo del estudio y los recursos disponibles.
+        .row.align-items-center.mb-5
+          .col-xl-auto
+            figure.d-none.d-xl-block(data-aos="fade-right")
+              img(src="@/assets/curso/tema1/img6.svg", alt="" style="max-width: 300px").m-auto
+          .col-xl
+            p.mb-0 El muestreo de suelos es una etapa crucial para obtener información representativa del terreno y tomar decisiones adecuadas en cuanto al manejo agrícola o ambiental. Existen diferentes métodos de muestreo, cada uno con características específicas que se adaptan según la homogeneidad del terreno, el objetivo del estudio y los recursos disponibles.
     
     p.mb-4.espacios__moviles A continuación, se presentan los principales tipos de muestreo utilizados en estudios de suelos:
 
@@ -213,8 +212,7 @@
             figure.d-none.d-xl-block(data-aos="fade-left")
               img(src="@/assets/curso/tema1/img20.png", alt="" style="max-width: 295px").m-auto
 
-    .row.align-items-center.mb-5
-      .col-xl-2
+    .row.align-items-center.mb-5.justify-content-center
       .col-xl-8
         .row.espacios__moviles_2(data-aos="fade-up")
           .col-xl-6
@@ -222,8 +220,8 @@
               h5 Figura 1.
               span Ubicación puntos en muestreo aleatorio simple
             figure.mb-2
-              img(src='@/assets/curso/tema1/img21.svg', alt='Para realizar este tipo de muestreo se requiere que el terreno esté delimitado, ya sea por cercas vivas o por el límite cultivos, lo cual facilita la ubicación de los puntos de muestreo.' style="max-width: 400px")
-            figcaption.ajuste_nota_2.ajuste_nota_movil_2 <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
+              img(src='@/assets/curso/tema1/img21.svg', alt='Para realizar este tipo de muestreo se requiere que el terreno esté delimitado, ya sea por cercas vivas o por el límite cultivos, lo cual facilita la ubicación de los puntos de muestreo.').m-auto
+            figcaption <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
           .col-xl-6.estilo__caja_6.espacios__moviles_1
             figure.d-none.d-xl-block
               img(src='@/assets/curso/tema1/img22.svg', alt='' style="max-width: 90px")
@@ -283,8 +281,7 @@
               .col-lg
                 h5.mb-0 Cambios de color en el suelo
     
-    .row.align-items-center.mb-5.espacios__moviles
-      .col-lg-1 
+    .row.align-items-center.mb-5.espacios__moviles.justify-content-center
       .col-lg-10
         .row.estilo__caja_8(data-aos="fade-up")
           .col-lg-7
@@ -298,7 +295,7 @@
               h5 Figura 2.
               span Ubicación puntos en muestreo aleatorio estratificado
             figure.mb-2
-              img(src='@/assets/curso/tema1/img30.svg', alt='Este método es especialmente recomendable para extensiones superiores a diez hectáreas y en terrenos que no presentan homogeneidad' style="max-width: 400px").m-auto
+              img(src='@/assets/curso/tema1/img30.svg', alt='Este método es especialmente recomendable para extensiones superiores a diez hectáreas y en terrenos que no presentan homogeneidad').m-auto
             figcaption <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
@@ -310,8 +307,7 @@
 
     p.mb-4.espacios__moviles El muestreo sistemático mediante <strong>rejillas rectangulares</strong> consiste en <strong>colocar las muestras siguiendo un patrón regular</strong> en toda la zona de estudio. Este procedimiento comienza desde un <strong>punto aleatorio inicial</strong>, y a partir de él se determina una <strong>distancia específica</strong> para ubicar los demás puntos de muestreo, manteniendo así la <strong>uniformidad entre ellos</strong>.
 
-    .row.align-items-center.mb-3
-      .col-lg-1 
+    .row.align-items-center.mb-3.justify-content-center
       .col-lg-10
         .row.estilo__caja_8(data-aos="fade-up")
           .col-lg-7
@@ -325,11 +321,10 @@
               h5 Figura 3.
               span Distribución regular de puntos de muestreo sistemático
             figure.mb-2
-              img(src='@/assets/curso/tema1/img31.svg', alt='La imagen presenta un ejemplo de la posible distribución de los puntos en un área regular, por lo cual podría realizarse la ubicación de los puntos en áreas pequeñas o grandes extensiones de terreno.' style="max-width: 400px").m-auto
+              img(src='@/assets/curso/tema1/img31.svg', alt='La imagen presenta un ejemplo de la posible distribución de los puntos en un área regular, por lo cual podría realizarse la ubicación de los puntos en áreas pequeñas o grandes extensiones de terreno.').m-auto
             figcaption <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
     
-    .row.align-items-center.mb-5
-      .col-lg-1 
+    .row.align-items-center.mb-5.justify-content-center
       .col-lg-10
         .row.estilo__caja_9.align-items-center(data-aos="fade-up")
           .col-lg-auto
@@ -347,20 +342,19 @@
 
     p.mb-4.espacios__moviles Este método consiste en <strong>trazar una línea en zig-zag</strong> sobre el área de estudio, marcando sobre ella los <strong>puntos de muestreo</strong> de forma que se mantenga una cierta equidistancia entre ellos. Sin embargo, <strong>no se obtienen resultados completamente representativos</strong>, ya que el patrón deja <strong>espacios vacíos</strong> donde podrían existir <strong>contaminaciones puntuales</strong> no detectadas. En el caso específico de suelos agrícolas, se debe <strong>eliminar el efecto borde</strong> desplazando la línea de muestreo de manera imaginaria, evitando zonas cercanas a caminos, drenajes, linderos o lotes con distinto manejo.
 
-    .row.mb-5(data-aos="fade-up")
-      .col-xl-2 
+    .row.mb-5.justify-content-center(data-aos="fade-up")
       .col-xl-10
         .row.align-items-center
-          .col-xl-5
+          .col-xl-6
             figure.d-none.d-xl-block
-              img(src="@/assets/curso/tema1/img33.png" style="max-width: 400px")
-          .col-xl-5
+              img(src="@/assets/curso/tema1/img33.png" ).m-auto
+          .col-xl-6
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 4.
               span Patrón muestreo transversal en zig zag
             figure.mb-2
-              img(src='@/assets/curso/tema1/img34.svg', alt='La imagen una posible distribución de los puntos en Zig zag, es importante tener en cuenta que si se hace en un área donde existan varios cultivos, este tipo de distribución de puntos podría generar ciertos vacíos de información.' style="max-width: 400px")
-            figcaption.ajuste_nota_2.ajuste_nota_movil_2 <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
+              img(src='@/assets/curso/tema1/img34.svg', alt='La imagen una posible distribución de los puntos en Zig zag, es importante tener en cuenta que si se hace en un área donde existan varios cultivos, este tipo de distribución de puntos podría generar ciertos vacíos de información.').m-auto
+            figcaption <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -376,8 +370,8 @@
           h5 Figura 5.
           span Muestreo irregular en forma de N, S, X, W, Zig Zag y Zig Zag traverso
         figure.mb-2(data-aos="fade-up")
-          img(src='@/assets/curso/tema1/img35.svg', alt='Este tipo de muestreo se recomienda aplicar cuando las condiciones del terreno presentan cierta homogeneidad, evitando resultados erróneos.' style="max-width: 750px")
-        figcaption.ajustar__width(data-aos="fade-up") <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
+          img(src='@/assets/curso/tema1/img35.svg', alt='Este tipo de muestreo se recomienda aplicar cuando las condiciones del terreno presentan cierta homogeneidad, evitando resultados erróneos.' ).m-auto
+        figcaption(data-aos="fade-up") <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
       .col-xl-auto
         figure.d-none.d-xl-block(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img36.svg", alt="" style="max-width: 400px").m-auto
@@ -499,20 +493,19 @@
     .fondo_color_3
       .px-5
         p.mb-4 La siguiente figura ilustra la técnica de cuarteo, un método utilizado para reducir de manera representativa el volumen de una muestra de residuos sólidos.
-        .row.mb-5(data-aos="fade-up")
-          .col-xl-2 
+        .row.mb-5.justify-content-center(data-aos="fade-up")
           .col-xl-10
             .row.align-items-center
-              .col-xl-5
+              .col-xl-6
                 figure.d-none.d-xl-block
-                  img(src="@/assets/curso/tema1/img51.png" style="max-width: 300px")
-              .col-xl-6.ajustar___marguen
+                  img(src="@/assets/curso/tema1/img51.png" ).m-auto
+              .col-xl-6
                 .titulo-sexto.color-acento-contenido.mb-2
                   h5 Figura 6.
                   span Técnica de cuarteo
                 figure.mb-2
-                  img(src='@/assets/curso/tema1/img52.svg', alt='El método de cuarteo permite la cantidad de muestra representativa de suelo a partir de una mayor cantidad seleccionada del terreno.' style="max-width: 600px")
-                figcaption.ajuste_nota_1 <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
+                  img(src='@/assets/curso/tema1/img52.svg', alt='El método de cuarteo permite la cantidad de muestra representativa de suelo a partir de una mayor cantidad seleccionada del terreno.').m-auto
+                figcaption <strong>Nota</strong>. Tomado de Ministerio del Ambiente (2014)
                 
         .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
           .col-lg-auto
@@ -523,8 +516,7 @@
 
         p.mb-4 El manejo adecuado de las muestras de suelo es fundamental para garantizar la validez de los resultados obtenidos en el laboratorio. Esto implica establecer una frecuencia adecuada de muestreo y seguir procedimientos específicos según el tipo de análisis a realizar.
 
-        .row.align-items-center.mb-5
-          .col-lg-1 
+        .row.align-items-center.mb-5.justify-content-center
           .col-lg-10
             .row.estilo__caja_10(data-aos="fade-up")
               .col-lg-auto
@@ -589,8 +581,7 @@
 
     p.mb-4.espacios__moviles Se debe rotular la muestra de suelo con el número o nombre del lote, el nombre del propietario, la fecha de muestreo y el nombre del responsable que realizó la toma, tal como se detalla en la figura siguiente.
 
-    .row.align-items-center.mb-5
-      .col-xl-1 
+    .row.align-items-center.mb-5.justify-content-center
       .col-xl-10
         .row.align-items-center
           .col-xl-8(data-aos="fade-up")
@@ -598,15 +589,14 @@
               h5 Figura 7.
               span Modelo de rótulo para muestra de suelo
             figure
-              img(src='@/assets/curso/tema1/img58.svg', alt='La imagen presenta un ejemplo de rótulo que deben llevar las muestras, con el fin de que el laboratorio puede identificar la procedencia de la muestra y los datos relevantes de la misma.' style="max-width: 600px")
+              img(src='@/assets/curso/tema1/img58.svg', alt='La imagen presenta un ejemplo de rótulo que deben llevar las muestras, con el fin de que el laboratorio puede identificar la procedencia de la muestra y los datos relevantes de la misma.').m-auto
           .col-xl-4.espacio__1(data-aos="fade-left")
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img59.png", alt="" style="max-width: 300px").m-auto
     
     p.mb-4.espacios__moviles El técnico de campo o el encargado del laboratorio deberá diligenciar la cadena de custodia, la cual debe contener al menos:
     
-    .row.align-items-center.mb-5
-      .col-xl-1
+    .row.align-items-center.mb-5.justify-content-center
       .col-xl-10
         .row.align-items-center.estilo__caja_3(data-aos="fade-up")
           .col-xl-auto
@@ -624,15 +614,15 @@
     
     .fondo_color_4.mb-5
       .px-5
-        .col-lg-1
-        .col-lg-10.mb-5(data-aos="fade-up")
-          .titulo-sexto.color-acento-contenido.mb-2
-            h5 Figura 8.
-            span Modelo de cadena de custodia para muestra de suelo
-          figure.espacio__2
-            img(src='@/assets/curso/tema1/img62.svg', alt='Tabla sobre cadena de custodia de suelos que incluye secciones para datos del sitio de muestreo, características de la muestra, condiciones ambientales, responsables del proceso y campos para firmas y observaciones.' style="max-width: 1000px")
-        
-        p.mb-4.espacios__moviles A continuación, se presenta la información organizada en una tabla de dos columnas que explica los aspectos clave sobre la cadena de custodia, el empaque y la preservación de las muestras de suelo:
+        .row.justify-content-center
+          .col-lg-10.mb-5(data-aos="fade-up")
+            .titulo-sexto.color-acento-contenido.mb-2
+              h5 Figura 8.
+              span Modelo de cadena de custodia para muestra de suelo
+            figure.espacio__2
+              img(src='@/assets/curso/tema1/img62.svg', alt='Tabla sobre cadena de custodia de suelos que incluye secciones para datos del sitio de muestreo, características de la muestra, condiciones ambientales, responsables del proceso y campos para firmas y observaciones.').m-auto
+          
+          p.mb-4.espacios__moviles A continuación, se presenta la información organizada en una tabla de dos columnas que explica los aspectos clave sobre la cadena de custodia, el empaque y la preservación de las muestras de suelo:
 
         .bg--img_03.mb-4
           .row.h-100.align-items-center
@@ -661,7 +651,7 @@
       .px-5
         .row.align-items-center.mb-5
           .col-xl
-            .row.align-items-center.estilo__caja_3(data-aos="fade-up")
+            .row.align-items-center.estilo__caja_3.m-0(data-aos="fade-up")
               .col-xl-auto
                 figure.d-none.d-xl-block
                   img(src="@/assets/curso/tema1/img65.png", alt="" style="max-width: 300px").m-auto
@@ -686,7 +676,7 @@
           .col
             h3 Consideraciones adicionales para la toma y procesamiento de muestras de suelo
 
-        .row.mb-5
+        .row.mb-5.m-0
           .col-xl-4
             p.mb-0 Cuando <strong>no se cuenta con un barreno</strong>, el muestreo puede realizarse utilizando una <strong>pala o palín</strong> junto con un <strong>balde</strong>, procurando siempre <strong>extraer cantidades similares de suelo en cada punto</strong> y mantener una <strong>profundidad constante</strong>. Este procedimiento permite obtener una muestra representativa, aunque con menor precisión que los equipos especializados.
           .col-xl-3
@@ -695,7 +685,7 @@
           .col-xl-5.estilo__caja_12.espacios__moviles_1(data-aos="fade-left")
             p.mb-0 Existen también <strong>equipos o kits portátiles</strong> que permiten realizar análisis <strong>químicos del suelo in situ</strong>. Estos dispositivos pueden procesar variables como el <strong>pH</strong>, la <strong>conductividad eléctrica</strong> y algunos <strong>nutrientes específicos</strong>, tales como <strong>iones nitrato (NO₃), calcio (Ca), potasio (K) y sodio (Na)</strong>. Sin embargo, se recomienda complementar estas mediciones con un <strong>análisis completo en laboratorio</strong>, que permita evaluar de forma integral las propiedades <strong>químicas, físicas y biológicas</strong> del suelo.
         
-        .row.align-items-center.mb-5.estilo__caja_13(data-aos="zoom-in")
+        .row.align-items-center.mb-5.estilo__caja_13.m-0(data-aos="zoom-in")
           .col-xl-auto
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img68.svg", alt="" style="max-width: 350px").m-auto
@@ -825,7 +815,7 @@
 
         .row.align-items-center.mb-5
           .col-xl
-            .row.align-items-center.estilo__caja_3(data-aos="fade-up")
+            .row.align-items-center.estilo__caja_3.m-0(data-aos="fade-up")
               .col-xl-auto
                 figure.d-none.d-xl-block
                   img(src="@/assets/curso/tema1/img78.svg", alt="" style="max-width: 300px").m-auto
@@ -852,7 +842,7 @@
         p.mb-4.espacios__moviles Dependiendo del objetivo del estudio y la dinámica del cuerpo de agua, se pueden emplear distintos tipos de muestras:
 
         .row.mb-5
-          .col-lg-4(data-aos="fade-right")
+          .col-xl-4(data-aos="fade-right")
             .tarjeta--boton.p-5.h-100
               .row.justify-content-center.mb-3
                 .col-7
@@ -860,7 +850,7 @@
                     img(src='@/assets/curso/tema1/img80.svg', alt="" style="max-width: 90px").m-auto
               h3.text-center Muestra puntual
               p.mb-0 Corresponde a una muestra representativa <strong>tomada en un solo punto y momento</strong>, en la que el <strong>tiempo y lugar no influyen significativamente</strong> en los resultados.
-          .col-lg-4.espacios__moviles_1(data-aos="fade-up")
+          .col-xl-4.espacios__moviles_1(data-aos="fade-up")
             .tarjeta--boton.p-5.h-100
               .row.justify-content-center.mb-3
                 .col-7
@@ -868,7 +858,7 @@
                     img(src='@/assets/curso/tema1/img81.svg', alt="" style="max-width: 90px").m-auto
               h3.text-center Muestra compuesta
               p.mb-0 Está formada por <strong>varias muestras puntuales</strong> recolectadas en <strong>intervalos y periodos determinados</strong>, lo que permite obtener una visión más completa de los cambios en el tiempo.
-          .col-lg-4.espacios__moviles_1(data-aos="fade-left")
+          .col-xl-4.espacios__moviles_1(data-aos="fade-left")
             .tarjeta--boton.p-5.h-100
               .row.justify-content-center.mb-3
                 .col-7
@@ -922,7 +912,7 @@
 
     .row.align-items-center.mb-5
       .col-xl
-        .row.align-items-center.mb-3.estilo__caja_15(data-aos="fade-right")
+        .row.align-items-center.mb-3.estilo__caja_15.m-0(data-aos="fade-right")
           .col-xl-auto
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img86.png", alt="" style="max-width: 400px").m-auto
@@ -1039,33 +1029,30 @@
           .col-xl
             p.mb-0.espacios__moviles Para el caso del método área-velocidad, se requiere conocer inicialmente el ancho de la fuente hídrica y, dependiendo de su longitud, se divide en varias secciones. Además es necesario conocer las profundidades de cada sección; con estos datos se procede a calcular el área de la sección transversal. 
 
-        .row.align-items-center.mb-5(data-aos="fade-up")
-          .col-xl-2
+        .row.align-items-center.mb-5.justify-content-center(data-aos="fade-up")
           .col-xl-8
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 9.
               span Puntos de observación en la sección transversal de una fuente hídrica
             figure.mb-2
-              img(src='@/assets/curso/tema1/img90.svg', alt='En la imagen presenta  un ejemplo de una sección transversal de un río o quebrada, en la cual para medir el caudal puede aplicarse el método de área velocidad.' style="max-width: 850px")
+              img(src='@/assets/curso/tema1/img90.svg', alt='En la imagen presenta  un ejemplo de una sección transversal de un río o quebrada, en la cual para medir el caudal puede aplicarse el método de área velocidad.').m-auto
             figcaption <strong>Nota</strong>. Tomado de  IDEAM (2021)
         
         p.mb-4.espacios__moviles Para determinar la velocidad del agua, el equipo más utilizado es el molinete hidrométrico. Para profundidades reducidas se emplean micromolinetes, mientras que en mayores profundidades se requiere el uso del molinete convencional. Este equipo debe estar debidamente calibrado para garantizar un cálculo preciso de la velocidad del agua.
         
-        .row.align-items-center.mb-5(data-aos="fade-up")
-          .col-xl-2
+        .row.align-items-center.mb-5.justify-content-center(data-aos="fade-up")
           .col-xl-5
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 10.
               span Molinete para medición de velocidad del agua en fuentes hídricas
             figure.mb-2
-              img(src='@/assets/curso/tema1/img91.svg', alt='La imagen presenta  un molinete, equipo usado para medir la velocidad del flujo de agua, este equipo por medio de la calibración arroja una única ecuación para el cálculo de la velocidad.' style="max-width: 500px")
-            figcaption.ajuste_nota.ajuste_nota_movil <strong>Nota</strong>. Tomado de  IDEAM (2021)
+              img(src='@/assets/curso/tema1/img91.svg', alt='La imagen presenta  un molinete, equipo usado para medir la velocidad del flujo de agua, este equipo por medio de la calibración arroja una única ecuación para el cálculo de la velocidad.').m-auto
+            figcaption <strong>Nota</strong>. Tomado de  IDEAM (2021)
           .col-xl-3
             figure.d-none.d-xl-block(data-aos="fade-left")
               img(src="@/assets/curso/tema1/img92.svg", alt="" style="max-width: 300px").m-auto
         
-        .row.mb-5(data-aos="fade-up")
-          .col-xl-1
+        .row.mb-5.justify-content-center.m-0(data-aos="fade-up")
           .col-xl-10
             .row.align-items-center.estilo__caja_17
               .col-xl-auto
@@ -1074,7 +1061,7 @@
               .col-xl
                 p.mb-0 <strong>Estimado aprendiz</strong>: para profundizar en el tema y comprenderlo mejor, se sugiere consultar en el material complementario el Protocolo de monitoreo y seguimiento del agua del IDEAM.
     
-    .caja-titulos-tercer-nivel.mb-5.espacios__moviles_7(data-aos="fade-right")
+    .caja-titulos-tercer-nivel.mb-5.espacios__moviles(data-aos="fade-right")
       .col-lg-auto
         figure
           img(src="@/assets/curso/tema1/img12.svg" style="max-width: 60px").m-auto
@@ -1103,8 +1090,7 @@
 
     .fondo_color_8.mb-5
       .px-5
-        .row.mb-5(data-aos="fade-up")
-          .col-xl-1
+        .row.mb-5.justify-content-center(data-aos="fade-up")
           .col-xl-10
             .row.align-items-center.estilo__caja_18
               .col-xl
@@ -1136,7 +1122,7 @@
                   img(src="@/assets/curso/tema1/img83.svg", alt="" style="max-width: 300px").m-auto
               .col-xl
                 p.mb-0 Para este tipo de muestreo se puede utilizar un balde limpio y previamente purgado, al igual que cualquier otro recipiente empleado (jarras, frascos, baldes, probetas, etc.).
-            .row.align-items-center.estilo__caja_3(data-aos="fade-up")
+            .row.align-items-center.estilo__caja_3.m-0(data-aos="fade-up")
               .col-xl-auto
                 figure.d-none.d-xl-block
                   img(src="@/assets/curso/tema1/img99.png", alt="" style="max-width: 275px").m-auto
@@ -1153,7 +1139,7 @@
         
         p.mb-4.espacios__moviles Este procedimiento garantiza una muestra compuesta que represente las condiciones medias del flujo en la sección seleccionada.
 
-    .caja-titulos-tercer-nivel.mb-5.espacios__moviles_7(data-aos="fade-right")
+    .caja-titulos-tercer-nivel.mb-5.espacios__moviles(data-aos="fade-right")
       .col-lg-auto
         figure
           img(src="@/assets/curso/tema1/img12.svg" style="max-width: 60px").m-auto
@@ -1233,8 +1219,7 @@
                 img(src='@/assets/curso/tema1/img112.svg' style="max-width: 90px").m-auto
             p.mb-0 <strong>Nevera portátil</strong>, indispensable para conservar las muestras a bajas temperaturas hasta su llegada al laboratorio.
         
-        .row.mb-5
-          .col-xl-1
+        .row.mb-5.justify-content-center.m-0
           .col-xl-10
             .row.align-items-center.estilo__caja_19(data-aos="fade-up")
               .col-xl-auto
@@ -1244,7 +1229,7 @@
                 h5.mb-3 Importante
                 p.mb-0 Si el muestreo se realiza sobre un <strong>vertimiento</strong>, deben tenerse en cuenta los <strong>parámetros específicos que deben analizarse</strong>, los cuales varían según el tipo de actividad productiva asociada. Para ello, es necesario consultar la <strong>Resolución 0631 de 2015</strong>, donde se establece el marco normativo para los vertimientos y los parámetros sujetos a control. Para mayor comprensión sobre este tema, se recomienda revisar dicha resolución en el <strong>material complementario</strong> proporcionado.
     
-    .caja-titulos-tercer-nivel.mb-5.espacios__moviles_7(data-aos="fade-right")
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
         figure
           img(src="@/assets/curso/tema1/img12.svg" style="max-width: 60px").m-auto
@@ -1255,8 +1240,7 @@
 
     .fondo_color_9
       .px-5
-        .row
-          .col-xl-1 
+        .row.justify-content-center
           .col-xl-10
             .row.align-items-center.mb-5
               .col-xl-auto
@@ -1267,7 +1251,7 @@
                   h5 Figura 11.
                   span Modelo de rótulo para muestra de agua
                 figure
-                  img(src='@/assets/curso/tema1/img116.svg', alt='La imagen presenta  un ejemplo del rótulo para muestras de agua, la información básica puede variar de un laboratorio a otro, sin embargo, este es un ejemplo con los datos básicos que debe contener una muestra de agua, ya sea de agua superficial, residual o de consumo humano.' style="max-width: 900px")
+                  img(src='@/assets/curso/tema1/img116.svg', alt='La imagen presenta  un ejemplo del rótulo para muestras de agua, la información básica puede variar de un laboratorio a otro, sin embargo, este es un ejemplo con los datos básicos que debe contener una muestra de agua, ya sea de agua superficial, residual o de consumo humano.').m-auto
         
         .row.align-items-center.mb-5
           .col-xl
@@ -1276,14 +1260,13 @@
             figure.d-none.d-xl-block(data-aos="fade-left") 
               img(src="@/assets/curso/tema1/img117.svg", alt="" style="max-width: 500px").m-auto
 
-        .row.mb-5.espacios__moviles
-          .col-xl-1 
+        .row.mb-5.espacios__moviles.justify-content-center
           .col-xl-10
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 12.
               span Modelo de cadena de custodia para muestra de agua
             figure.espacio__2
-              img(src='@/assets/curso/tema1/img118.svg', alt='Tabla sobre cadena de custodia de agua que organiza información del lugar de muestreo, tipo de agua, uso del recurso, coordenadas, observaciones, y datos de los responsables de toma, solicitud, transporte y recepción de la muestra. ' style="max-width: 1030px")
+              img(src='@/assets/curso/tema1/img118.svg', alt='Tabla sobre cadena de custodia de agua que organiza información del lugar de muestreo, tipo de agua, uso del recurso, coordenadas, observaciones, y datos de los responsables de toma, solicitud, transporte y recepción de la muestra.').m-auto
 
         .row.align-items-center.mb-5.estilo__caja_20(data-aos="fade-up")
           .col-xl-auto
@@ -1308,30 +1291,44 @@
 
         .row.mb-3
           .col-xl-4(data-aos="zoom-in")
-            figure
-              img(src="@/assets/curso/tema1/img121.png", alt="" style="max-width: 400px").m-auto
-            p.mb-0.estilo__caja_21.ajuste___3.estilo__caja_21_ajuste Tester de pH y temperatura 
+            .row.justify-content-center
+              .col-lg-12
+                figure
+                  img(src="@/assets/curso/tema1/img121.png", alt="" style="max-width: 400px").m-auto
+              .col-lg-12.estilo__caja_21
+                p.mb-0 Tester de pH y temperatura 
           .col-xl-4(data-aos="zoom-in")
-            figure
-              img(src="@/assets/curso/tema1/img122.png", alt="" style="max-width: 400px").m-auto
-            p.mb-0.estilo__caja_21.ajuste___3.estilo__caja_21_ajuste Medidor portátil de pH/temperatura 
+            .row.justify-content-center
+              .col-lg-12
+                figure
+                  img(src="@/assets/curso/tema1/img122.png", alt="" style="max-width: 400px").m-auto
+              .col-lg-12.estilo__caja_21.ajuste___21
+                p.mb-0 Medidor portátil de pH/temperatura 
           .col-xl-4(data-aos="zoom-in")
-            figure
-              img(src="@/assets/curso/tema1/img123.png", alt="" style="max-width: 400px").m-auto
-            p.mb-0.estilo__caja_21.estilo__caja_21_ajuste Medidor de conductividad eléctrica y sólidos totales disuelto
+            .row.justify-content-center
+              .col-lg-12
+                figure
+                  img(src="@/assets/curso/tema1/img123.png", alt="" style="max-width: 400px").m-auto
+              .col-lg-12.estilo__caja_21.ajuste___21_1
+                p.mb-0 Medidor de conductividad eléctrica y sólidos totales disuelto
         
-        .row
-          .col-xl-2
+        .row.justify-content-center
           .col-xl-8
             .row
               .col-xl-6(data-aos="zoom-in")
-                figure
-                  img(src="@/assets/curso/tema1/img124.png", alt="" style="max-width: 400px").m-auto
-                p.mb-0.estilo__caja_21.estilo__caja_21_ajuste Equipo multiparamétrico de aguas
+                .row.justify-content-center
+                  .col-lg-12
+                    figure
+                      img(src="@/assets/curso/tema1/img124.png", alt="" style="max-width: 400px").m-auto
+                  .col-lg-12.estilo__caja_21.ajuste___21_2
+                    p.mb-0 Equipo multiparamétrico de aguas
               .col-xl-6(data-aos="zoom-in")
-                figure
-                  img(src="@/assets/curso/tema1/img125.png", alt="" style="max-width: 400px").m-auto
-                p.mb-0.estilo__caja_21.estilo__caja_21_ajuste Espectrofotómetro 
+                .row.justify-content-center
+                  .col-lg-12
+                    figure
+                      img(src="@/assets/curso/tema1/img125.png", alt="" style="max-width: 400px").m-auto
+                  .col-lg-12.estilo__caja_21.ajuste___21_3
+                    p.mb-0 Espectrofotómetro 
 
         Separador.espacios__moviles
         <!-- BLOQUE 4 -->
@@ -1460,18 +1457,16 @@
               h5.mb-3 Registro y documentación
               p.mb-0 Cámara fotográfica, bolígrafo o rotulador permanente, formatos de campo, cadena de custodia, GPS.
 
-        .row.mb-5
-          .col-xl-2
+        .row.mb-5.justify-content-center
           .col-xl-10
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 13.
               span Ejemplos de lanzamiento de red y uso de pértiga telescópica
             figure.mb-2
-              img(src='@/assets/curso/tema1/img136.png', alt='En la imagen se presentan formas de captura de organismos planctónicos, en esta caso se están usando una red y una pértiga telescópica.' style="max-width: 700px")
-            figcaption.ajuste___4 <strong>Nota</strong>. Tomado de  IDEAM (2021)
+              img(src='@/assets/curso/tema1/img136.png', alt='En la imagen se presentan formas de captura de organismos planctónicos, en esta caso se están usando una red y una pértiga telescópica.').m-auto
+            figcaption <strong>Nota</strong>. Tomado de  IDEAM (2021)
 
-        .row.espacios__moviles(data-aos="fade-up")
-          .col-xl-1
+        .row.espacios__moviles.justify-content-center(data-aos="fade-up")
           .col-xl-10
             .row.align-items-center.estilo__caja_17
               .col-xl-auto
@@ -1486,7 +1481,7 @@
       h2 1.5 Muestreo de macroinvertebrados acuáticos
     
     .fondo_img_3
-      .px-2
+      .px-5
         .row.align-items-center.mb-5
           .col-xl
             p.mb-4 Los macroinvertebrados acuáticos, en especial los bentónicos que habitan en sustratos de fondo y los que habitan en plantas macrófitas son organismos bioindicadores de calidad de agua, los cuales permiten determinar la calidad desde el punto de vista biológico, aplicando ciertos índices que indican si la calidad del agua es buena, regular o mala. Es por ello que estos indicadores o variables ambientales asociadas a condiciones hidrobiológicas le pueden brindar al productor herramientas útiles para la toma de decisiones respecto al manejo de los agroecosistemas.
@@ -1494,7 +1489,7 @@
               h5 Figura 14.
               span Macroinvertebrados característicos de ríos y quebradas
             figure.mb-2(data-aos="fade-up")
-              img(src='@/assets/curso/tema1/img139.png', alt='Ilustración de macroinvertebrados de ríos y quebradas que incluye un milpiés segmentado, un isópodo sobre musgo y un grupo de isópodos sobre material vegetal sumergido.' style="max-width: 700px")
+              img(src='@/assets/curso/tema1/img139.png', alt='Ilustración de macroinvertebrados de ríos y quebradas que incluye un milpiés segmentado, un isópodo sobre musgo y un grupo de isópodos sobre material vegetal sumergido.').m-auto
           .col-xl-auto
             figure.d-none.d-xl-block(data-aos="fade-left")
               img(src="@/assets/curso/tema1/img140.svg", alt="" style="max-width: 340px").m-auto
@@ -1534,11 +1529,11 @@
           img(src="@/assets/curso/tema1/img12.svg" style="max-width: 60px").m-auto
       .col
         h3 Equipos y herramientas para muestreo de macroinvertebrados
-
+    
+    p.mb-4.espacios__moviles Para la recolección eficiente de macroinvertebrados, se requiere el uso de diversas herramientas especializadas, tanto para la captura como para la conservación y análisis de las muestras. A continuación se listan los equipos más utilizados:
 
     .row.align-items-center.mb-4
       .col-xl
-        p.mb-4.espacios__moviles Para la recolección eficiente de macroinvertebrados, se requiere el uso de diversas herramientas especializadas, tanto para la captura como para la conservación y análisis de las muestras. A continuación se listan los equipos más utilizados:
         .row.align-items-center.estilo__caja_3(data-aos="fade-up")
           .col-xl-auto
             figure.d-none.d-xl-block
