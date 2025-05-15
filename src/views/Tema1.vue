@@ -472,7 +472,7 @@
               .tarjeta.color-acento-botones.p-4
                 .row.justify-content-center.mb-3
                   .col-8
-                    <!--img(src='@/assets/curso/tema1/img48.svg' style="max-width: 90px").m-auto-->
+                    img(src='@/assets/curso/tema1/img146.svg' style="max-width: 90px").m-auto
                 h5.mb-3 Técnica de cuarteo
                 p.mb-0 Aplicar la técnica hasta obtener una muestra final de aproximadamente 1 kg.
 
