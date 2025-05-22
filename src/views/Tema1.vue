@@ -1288,47 +1288,48 @@
     .fondo_color_10
       .px-5
         p.mb-4.espacios__moviles El análisis de la calidad del agua requiere del uso de equipos e instrumentos especializados que permitan medir, con precisión, diferentes variables físico-químicas y biológicas. Aunque en la mayoría de los casos las muestras recolectadas son <strong>procesadas en laboratorio</strong>, es importante tener en cuenta que <strong>cada laboratorio puede definir su propio protocolo</strong> de toma y recepción de muestras. Por ello, se recomienda consultar con antelación dichos lineamientos para asegurar que los procedimientos de campo sean compatibles con los requerimientos del análisis. A continuación, se presentan algunos de los <strong>equipos más utilizados para la medición de parámetros de calidad de agua</strong>:
-
-        .row.mb-3
-          .col-xl-4(data-aos="zoom-in")
-            .row.justify-content-center
-              .col-lg-12
-                figure
-                  img(src="@/assets/curso/tema1/img121.png", alt="" style="max-width: 400px").m-auto
-              .col-lg-12.estilo__caja_21
-                p.mb-0 Tester de pH y temperatura 
-          .col-xl-4(data-aos="zoom-in")
-            .row.justify-content-center
-              .col-lg-12
-                figure
-                  img(src="@/assets/curso/tema1/img122.png", alt="" style="max-width: 400px").m-auto
-              .col-lg-12.estilo__caja_21.ajuste___21
-                p.mb-0 Medidor portátil de pH/temperatura 
-          .col-xl-4(data-aos="zoom-in")
-            .row.justify-content-center
-              .col-lg-12
-                figure
-                  img(src="@/assets/curso/tema1/img123.png", alt="" style="max-width: 400px").m-auto
-              .col-lg-12.estilo__caja_21.ajuste___21_1
-                p.mb-0 Medidor de conductividad eléctrica y sólidos totales disuelto
         
-        .row.justify-content-center
-          .col-xl-8
-            .row
-              .col-xl-6(data-aos="zoom-in")
-                .row.justify-content-center
-                  .col-lg-12
-                    figure
-                      img(src="@/assets/curso/tema1/img124.png", alt="" style="max-width: 400px").m-auto
-                  .col-lg-12.estilo__caja_21.ajuste___21_2
-                    p.mb-0 Equipo multiparamétrico de aguas
-              .col-xl-6(data-aos="zoom-in")
-                .row.justify-content-center
-                  .col-lg-12
-                    figure
-                      img(src="@/assets/curso/tema1/img125.png", alt="" style="max-width: 400px").m-auto
-                  .col-lg-12.estilo__caja_21.ajuste___21_3
-                    p.mb-0 Espectrofotómetro 
+        .row.justify-content-center.mb-3
+          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/tema1/img121.png", alt="alt")
+              .crd_hover_txt--body
+                h4.mb-0 Tester de pH y temperatura 
+          
+          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/tema1/img122.png", alt="alt")
+              .crd_hover_txt--body
+                h4.mb-0 Medidor portátil de pH/temperatura 
+
+          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/tema1/img123.png", alt="alt")
+              .crd_hover_txt--body
+                h4.mb-0 Medidor de conductividad eléctrica y sólidos totales disuelto
+        
+        .row.justify-content-center.espacios__moviles
+          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/tema1/img124.png", alt="alt")
+              .crd_hover_txt--body
+                h4.mb-0 Equipo multiparamétrico de aguas
+          
+          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/tema1/img125.png", alt="alt")
+              .crd_hover_txt--body
+                h4.mb-0 Espectrofotómetro
 
         Separador.espacios__moviles
         <!-- BLOQUE 4 -->
