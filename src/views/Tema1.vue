@@ -414,12 +414,12 @@
         
         p.mb-4.espacios__moviles  Para llevar a cabo una <strong>toma de muestra de suelo adecuada</strong>, es fundamental seguir una serie de pasos técnicos que aseguren la representatividad y calidad de la muestra. A continuación, se detallan las etapas recomendadas:
         
-        .row
+        .row.align-items-center
           .col-xl-4(data-aos="fade-right")
             figure.d-none.d-xl-block
               img(src='@/assets/curso/tema1/img40.png', alt='' style="max-width: 300px").m-auto
           .col-xl-8(data-aos="fade-left")
-            SlyderF(columnas="col-lg-6 col-xl-4")
+            SlyderF(columnas="col-lg-6 col-xl-6")
               .tarjeta.color-acento-botones.p-4
                 .row.justify-content-center.mb-3
                   .col-8
@@ -590,9 +590,9 @@
               span Modelo de rótulo para muestra de suelo
             figure
               img(src='@/assets/curso/tema1/img58.svg', alt='La imagen presenta un ejemplo de rótulo que deben llevar las muestras, con el fin de que el laboratorio puede identificar la procedencia de la muestra y los datos relevantes de la misma.').m-auto
-          .col-xl-4.espacio__1(data-aos="fade-left")
+          .col-xl-4(data-aos="fade-left")
             figure.d-none.d-xl-block
-              img(src="@/assets/curso/tema1/img59.png", alt="" style="max-width: 300px").m-auto
+              img(src="@/assets/curso/tema1/img59.png", alt="" ).m-auto
     
     p.mb-4.espacios__moviles El técnico de campo o el encargado del laboratorio deberá diligenciar la cadena de custodia, la cual debe contener al menos:
     
