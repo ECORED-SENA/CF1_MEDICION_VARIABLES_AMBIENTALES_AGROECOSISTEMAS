@@ -44,7 +44,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Consideraciones generales del plan de muestreo
 
-    p.mb-3 El plan de muestreo debe contener como mínimo, los siguientes aspectos: 
+    p.mb-3 El plan de muestreo debe contener, como mínimo, los siguientes aspectos: 
 
     .fondo_color_1
       .px-5
@@ -119,7 +119,7 @@
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6.mb-4.col-xs-12
               h4 Muestreo compuesto
-              p.mb-0 Es el método más sencillo y común. Se toman varias submuestras en patrón aleatorio (en zig-zag), las cuales se mezclan completamente. Luego, mediante la técnica de cuarteo, se obtiene una muestra representativa de aproximadamente 1 kg. Ideal para representar uniformemente un área.
+              p.mb-0 Es el método más sencillo y común. Se toman varias submuestras en patrón aleatorio (en zig zag), las cuales se mezclan completamente. Luego, mediante la técnica de cuarteo, se obtiene una muestra representativa de aproximadamente 1 kg. Ideal para representar uniformemente un área.
             .col-lg-6
               .titulo-sexto.color-acento-contenido.mb-2
               figure
@@ -159,7 +159,7 @@
                 figure.d-none.d-xl-block
                   img(src="@/assets/curso/tema1/img14.svg", alt="" style="max-width: 90px").m-auto 
               .col-lg
-                p.mb-0 En el contexto del presente curso de formación, la medición se llevará a cabo en un <strong>agroecosistema</strong>, es decir, un ecosistema modificado por la intervención humana con fines agropecuarios. Esto puede incluir una finca, lote o terreno de un productor o de una asociación de productores agropecuarios, siempre que se practique manejo agroecológico o producción ecológica.
+                p.mb-0 En el contexto del presente curso de formación, la medición se llevará a cabo en un agroecosistema, es decir, un ecosistema modificado por la intervención humana con fines agropecuarios. Esto puede incluir una finca, lote o terreno de un productor o de una asociación de productores agropecuarios, siempre que se practique manejo agroecológico o producción ecológica.
           .col-xl-auto
             figure.d-none.d-xl-block(data-aos="fade-left")
               img(src="@/assets/curso/tema1/img15.svg", alt="" style="max-width: 300px").m-auto
@@ -192,7 +192,7 @@
                 figure.d-none.d-xl-block(data-aos="fade-up")
                   img(src="@/assets/curso/tema1/img19.svg", alt="" style="max-width: 85px").m-auto
               .col-lg
-                p.mb-0 Además, se debe considerar la posibilidad de <strong>extrapolación de resultados</strong>. Esto implica formular hipótesis que permitan suponer que los resultados obtenidos podrían ser aplicables a otros agroecosistemas con características similares, ampliando así la validez del estudio más allá del sitio específico analizado.
+                p.mb-0 Además, se debe considerar la posibilidad de extrapolación de resultados. Esto implica formular hipótesis que permitan suponer que los resultados obtenidos podrían ser aplicables a otros agroecosistemas con características similares, ampliando así la validez del estudio más allá del sitio específico analizado.
                 
         .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
           .col-lg-auto
@@ -225,7 +225,7 @@
           .col-xl-6.estilo__caja_6.espacios__moviles_1
             figure.d-none.d-xl-block
               img(src='@/assets/curso/tema1/img22.svg', alt='' style="max-width: 90px")
-            p.mb-0 Se recomienda utilizar el muestreo aleatorio simple en <strong>áreas homogéneas</strong> que no superen las <strong>cinco hectáreas</strong>, y que estén <strong>delimitadas por referencias visibles</strong> a lo largo y ancho de la zona. Esta condición permite garantizar una distribución uniforme y representativa de los puntos de muestreo dentro del área seleccionada.
+            p.mb-0 Se recomienda utilizar el muestreo aleatorio simple en áreas homogéneas que no superen las cinco hectáreas, y que estén delimitadas por referencias visibles a lo largo y ancho de la zona. Esta condición permite garantizar una distribución uniforme y representativa de los puntos de muestreo dentro del área seleccionada.
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -234,7 +234,7 @@
       .col
         h3 Muestreo aleatorio estratificado
     
-    p.mb-4.espacios__moviles Para llevar a cabo un muestreo más <strong>preciso y representativo</strong>, es fundamental dividir previamente el área de estudio en <strong>subgrupos o estratos</strong> que presenten homogeneidad en sus características. En cada uno de estos estratos se aplica un <strong>muestreo aleatorio simple</strong>.
+    p.mb-4.espacios__moviles Para llevar a cabo un muestreo más preciso y representativo, es fundamental dividir previamente el área de estudio en subgrupos o estratos que presenten homogeneidad en sus características. En cada uno de estos estratos se aplica un muestreo aleatorio simple.
 
     .row.align-items-center.mb-5
       .col-xl-auto
@@ -246,7 +246,7 @@
             figure.d-none.d-xl-block(data-aos="fade-up")
               img(src="@/assets/curso/tema1/img24.svg", alt="" style="max-width: 85px").m-auto
           .col-lg
-            p.mb-0 Este tipo de muestreo requiere contar con <strong>información previa</strong> que permita realizar una subdivisión adecuada del terreno. Dicha división puede basarse en criterios como:
+            p.mb-0 Este tipo de muestreo requiere contar con información previa que permita realizar una subdivisión adecuada del terreno. Dicha división puede basarse en criterios como:
         .row
           .col-lg-6
             .row.align-items-center.estilo__caja_7.m-0(data-aos="fade-up")
@@ -305,7 +305,7 @@
       .col
         h3 Muestreo sistemático (rejillas rectangulares)
 
-    p.mb-4.espacios__moviles El muestreo sistemático mediante <strong>rejillas rectangulares</strong> consiste en <strong>colocar las muestras siguiendo un patrón regular</strong> en toda la zona de estudio. Este procedimiento comienza desde un <strong>punto aleatorio inicial</strong>, y a partir de él se determina una <strong>distancia específica</strong> para ubicar los demás puntos de muestreo, manteniendo así la <strong>uniformidad entre ellos</strong>.
+    p.mb-4.espacios__moviles El muestreo sistemático mediante rejillas rectangulares consiste en colocar las muestras siguiendo un patrón regular en toda la zona de estudio. Este procedimiento comienza desde un punto aleatorio inicial, y a partir de él se determina una distancia específica para ubicar los demás puntos de muestreo, manteniendo así la uniformidad entre ellos.
 
     .row.align-items-center.mb-3.justify-content-center
       .col-lg-10
@@ -331,16 +331,16 @@
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img32.svg" style="max-width: 80px").m-auto
           .col-lg
-            p.mb-0 En este sistema de muestreo, el tipo de muestra que se obtiene y se analiza es <strong>simple</strong>. No se recomienda el uso de muestras compuestas, ya que esto puede llevar a la <strong>pérdida de precisión en el procesamiento de los resultados</strong>.
+            p.mb-0 En este sistema de muestreo, el tipo de muestra que se obtiene y se analiza es simple. No se recomienda el uso de muestras compuestas, ya que esto puede llevar a la pérdida de precisión en el procesamiento de los resultados.
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
         figure
           img(src="@/assets/curso/tema1/img12.svg" style="max-width: 60px").m-auto
       .col
-        h3 Muestreo no sistemático en zig-zag
+        h3 Muestreo no sistemático en zig zag
 
-    p.mb-4.espacios__moviles Este método consiste en <strong>trazar una línea en zig-zag</strong> sobre el área de estudio, marcando sobre ella los <strong>puntos de muestreo</strong> de forma que se mantenga una cierta equidistancia entre ellos. Sin embargo, <strong>no se obtienen resultados completamente representativos</strong>, ya que el patrón deja <strong>espacios vacíos</strong> donde podrían existir <strong>contaminaciones puntuales</strong> no detectadas. En el caso específico de suelos agrícolas, se debe <strong>eliminar el efecto borde</strong> desplazando la línea de muestreo de manera imaginaria, evitando zonas cercanas a caminos, drenajes, linderos o lotes con distinto manejo.
+    p.mb-4.espacios__moviles Este método consiste en trazar una línea en zig zag sobre el área de estudio, marcando sobre ella los puntos de muestreo de forma que se mantenga una cierta equidistancia entre ellos. Sin embargo, no se obtienen resultados completamente representativos, ya que el patrón deja espacios vacíos donde podrían existir contaminaciones puntuales no detectadas. En el caso específico de suelos agrícolas, se debe eliminar el efecto borde desplazando la línea de muestreo de manera imaginaria, evitando zonas cercanas a caminos, drenajes, linderos o lotes con distinto manejo.
 
     .row.mb-5.justify-content-center(data-aos="fade-up")
       .col-xl-10
@@ -365,7 +365,7 @@
 
     .row.align-items-center.mb-5
       .col-xl
-        p En superficies con <strong>geometría cuadrada</strong>, se pueden trazar patrones en forma de <strong>letras como N, S, X o W</strong>, marcando los <strong>puntos de muestreo</strong> a lo largo de las líneas que forman dichas letras. Se debe procurar que estos puntos estén <strong>equidistantes</strong> entre sí. No obstante, <strong>estos patrones no garantizan una representatividad completa</strong>, ya que dejan <strong>espacios vacíos</strong> en el área de estudio. En dichos espacios podrían presentarse <strong>contaminaciones puntuales</strong> que no serían detectadas por el muestreo.
+        p En superficies con geometría cuadrada, se pueden trazar patrones en forma de letras como N, S, X o W, marcando los puntos de muestreo a lo largo de las líneas que forman dichas letras. Se debe procurar que estos puntos estén equidistantes entre sí. No obstante, estos patrones no garantizan una representatividad completa, ya que dejan espacios vacíos en el área de estudio. En dichos espacios podrían presentarse contaminaciones puntuales que no serían detectadas por el muestreo.
         .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-up")
           h5 Figura 5.
           span Muestreo irregular en forma de N, S, X, W, Zig Zag y Zig Zag traverso
@@ -390,7 +390,7 @@
         .row.align-items-center
           .col-lg
             h4 Muestras disturbadas
-            p.mb-0 Son aquellas en las que <strong>no se preserva la estructura del suelo</strong>. Las partículas se recolectan sueltas y se <strong>mezclan entre sí</strong>, por lo que se pierde la organización natural del suelo. Este tipo de muestra es útil para análisis químicos y texturales generales.
+            p.mb-0 Son aquellas en las que no se preserva la estructura del suelo. Las partículas se recolectan sueltas y se mezclan entre sí, por lo que se pierde la organización natural del suelo. Este tipo de muestra es útil para análisis químicos y texturales generales.
           .col-lg-auto
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img37.png", alt="" style="max-width: 350px").m-auto
@@ -398,7 +398,7 @@
         .row.align-items-center
           .col-lg
             h4 Muestras no disturbadas
-            p.mb-0 En este caso, se garantiza la <strong>preservación de la estructura original</strong> del suelo. Se requiere el uso de equipos específicos de muestreo para evitar que las partículas cambien de posición o se mezclen, conservando así las condiciones naturales tal como se encuentran en el terreno. Estas muestras son fundamentales para estudios físicos del suelo, como porosidad, densidad o estructura.
+            p.mb-0 En este caso, se garantiza la preservación de la estructura original del suelo. Se requiere el uso de equipos específicos de muestreo para evitar que las partículas cambien de posición o se mezclen, conservando así las condiciones naturales tal como se encuentran en el terreno. Estas muestras son fundamentales para estudios físicos del suelo, como porosidad, densidad o estructura.
           .col-lg-auto
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img38.png", alt="" style="max-width: 350px").m-auto
@@ -412,7 +412,7 @@
           .col
             h3 Técnicas de muestreo de suelo
         
-        p.mb-4.espacios__moviles  Para llevar a cabo una <strong>toma de muestra de suelo adecuada</strong>, es fundamental seguir una serie de pasos técnicos que aseguren la representatividad y calidad de la muestra. A continuación, se detallan las etapas recomendadas:
+        p.mb-4.espacios__moviles  Para llevar a cabo una toma de muestra de suelo adecuada, es fundamental seguir una serie de pasos técnicos que aseguren la representatividad y calidad de la muestra. A continuación, se detallan las etapas recomendadas:
         
         .row.align-items-center
           .col-xl-4(data-aos="fade-right")
@@ -538,7 +538,7 @@
         .col
           h3 Toma de la muestra de suelo
 
-    p.mb-4.espacios__moviles Antes de la extracción, es necesario considerar <strong>qué variable o parámetro se va a medir</strong>, ya que esto determinará el tipo de muestra y la metodología a seguir:
+    p.mb-4.espacios__moviles Antes de la extracción, es necesario considerar qué variable o parámetro se va a medir, ya que esto determinará el tipo de muestra y la metodología a seguir:
 
     .bg--img_03.mb-5
       .row.h-100.align-items-center
@@ -564,13 +564,13 @@
             figure.d-none.d-xl-block(data-aos="fade-up")
               img(src="@/assets/curso/tema1/img56.svg", alt="" style="max-width: 85px").m-auto
           .col-xl
-            p.mb-0.espacios__moviles_7 Posteriormente, la muestra se debe <strong>empacar en una bolsa plástica estéril</strong> y conservar <strong>refrigerada</strong> dentro de un <strong>termo de icopor con hielo</strong>, por un máximo de <strong>24 horas</strong>, hasta su transporte al laboratorio.
+            p.mb-0.espacios__moviles_7 Posteriormente, la muestra se debe empacar en una bolsa plástica estéril y conservar refrigerada dentro de un termo de icopor con hielo, por un máximo de 24 horas, hasta su transporte al laboratorio.
         .row.align-items-center.estilo__caja_11(data-aos="fade-left")
           .col-xl-auto
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img57.svg", alt="" style="max-width: 90px").m-auto
           .col-xl
-            p.mb-0 Se recomienda <strong>acondicionar las muestras</strong>, desterronando el suelo y eliminando los materiales distintos a sus partículas, para asegurar la calidad del análisis.
+            p.mb-0 Se recomienda acondicionar las muestras, desterronando el suelo y eliminando los materiales distintos a sus partículas, para asegurar la calidad del análisis.
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -645,7 +645,7 @@
       .col
         h3 Herramientas, materiales y equipos requeridos para la medición en suelo
 
-    p.mb-4 Para asegurar que la <strong>toma de muestras de suelo</strong> se realice conforme al protocolo de muestreo, es fundamental contar con los <strong>materiales y equipos adecuados</strong> en el momento de la medición. Esto garantiza la precisión en los análisis y evita la contaminación de las muestras. Cuando se van a analizar las propiedades <strong>físicas, químicas y biológicas</strong> del suelo, se recomienda disponer, como mínimo, de los siguientes elementos:
+    p.mb-4 Para asegurar que la toma de muestras de suelo se realice conforme al protocolo de muestreo, es fundamental contar con los materiales y equipos adecuados en el momento de la medición. Esto garantiza la precisión en los análisis y evita la contaminación de las muestras. Cuando se van a analizar las propiedades físicas, químicas y biológicas del suelo, se recomienda disponer, como mínimo, de los siguientes elementos:
 
     .fondo_color_5
       .px-5
@@ -657,13 +657,13 @@
                   img(src="@/assets/curso/tema1/img65.png", alt="" style="max-width: 300px").m-auto
               .col-xl
                 <ul class="fa-ul estilo__li">
-                  <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Formatos de información</strong> para el registro de datos en campo.</li>
-                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span><strong>Baldes</strong> para la recolección y mezcla de submuestras.</li>
-                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span><strong>Bolsas de plástico limpias</strong> o el <strong>recipiente definido por el laboratorio</strong> encargado del análisis.</li>
-                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span><strong>Recipientes de vidrio</strong> cuando se tomen muestras para análisis de <strong>indicadores biológicos</strong>.</li>
-                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span><strong>Sacabocados, barreno, pala o garlancha</strong>, todos limpios, para la extracción del suelo.</li>
-                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span><strong>Machete limpio</strong>, útil para remover o cortar capas superficiales si es necesario.</li>
-                  <li><span class="fa-li"><i class="fas fa-leaf"></i></span><strong>Mapa del agroecosistema</strong> objeto de la medición, que permita ubicar los puntos de muestreo y registrar observaciones.</li>
+                  <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Formatos de información para el registro de datos en campo.</li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Baldes para la recolección y mezcla de submuestras.</li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Bolsas de plástico limpias o el recipiente definido por el laboratorio encargado del análisis.</li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Recipientes de vidrio cuando se tomen muestras para análisis de indicadores biológicos.</li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>>Sacabocados, barreno, pala o garlancha, todos limpios, para la extracción del suelo.</li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Machete limpio, útil para remover o cortar capas superficiales si es necesario.</li>
+                  <li><span class="fa-li"><i class="fas fa-leaf"></i></span>Mapa del agroecosistema objeto de la medición, que permita ubicar los puntos de muestreo y registrar observaciones.</li>
                 </ul>
           .col-xl-auto(data-aos="fade-left")
             figure.d-none.d-xl-block
@@ -678,19 +678,19 @@
 
         .row.mb-5.m-0
           .col-xl-4
-            p.mb-0 Cuando <strong>no se cuenta con un barreno</strong>, el muestreo puede realizarse utilizando una <strong>pala o palín</strong> junto con un <strong>balde</strong>, procurando siempre <strong>extraer cantidades similares de suelo en cada punto</strong> y mantener una <strong>profundidad constante</strong>. Este procedimiento permite obtener una muestra representativa, aunque con menor precisión que los equipos especializados.
+            p.mb-0 Cuando no se cuenta con un barreno, el muestreo puede realizarse utilizando una pala o palín junto con un balde, procurando siempre extraer cantidades similares de suelo en cada punto y mantener una profundidad constante. Este procedimiento permite obtener una muestra representativa, aunque con menor precisión que los equipos especializados.
           .col-xl-3
             figure.d-none.d-xl-block(data-aos="zoom-in")
               img(src="@/assets/curso/tema1/img67.png", alt="" style="max-width: 300px").m-auto
           .col-xl-5.estilo__caja_12.espacios__moviles_1(data-aos="fade-left")
-            p.mb-0 Existen también <strong>equipos o kits portátiles</strong> que permiten realizar análisis <strong>químicos del suelo in situ</strong>. Estos dispositivos pueden procesar variables como el <strong>pH</strong>, la <strong>conductividad eléctrica</strong> y algunos <strong>nutrientes específicos</strong>, tales como <strong>iones nitrato (NO₃), calcio (Ca), potasio (K) y sodio (Na)</strong>. Sin embargo, se recomienda complementar estas mediciones con un <strong>análisis completo en laboratorio</strong>, que permita evaluar de forma integral las propiedades <strong>químicas, físicas y biológicas</strong> del suelo.
+            p.mb-0 Existen también equipos o kits portátiles que permiten realizar análisis químicos del suelo in situ. Estos dispositivos pueden procesar variables como el pH, la conductividad eléctrica y algunos nutrientes específicos, tales como iones nitrato (NO₃), calcio (Ca), potasio (K) y sodio (Na). Sin embargo, se recomienda complementar estas mediciones con un análisis completo en laboratorio, que permita evaluar de forma integral las propiedades químicas, físicas y biológicas del suelo.
         
         .row.align-items-center.mb-5.estilo__caja_13.m-0(data-aos="zoom-in")
           .col-xl-auto
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img68.svg", alt="" style="max-width: 350px").m-auto
           .col-xl
-            p.mb-0 Respecto al <strong>procesamiento de las muestras</strong>, tanto para análisis de <strong>calidad de suelo como de agua</strong>, lo más frecuente es que se realice en un <strong>laboratorio especializado en análisis de agua y suelos</strong>. Por esta razón, se recomienda <strong>consultar y seguir el protocolo de toma de muestras</strong> establecido por cada laboratorio, con el fin de asegurar la validez y comparabilidad de los resultados obtenidos.
+            p.mb-0 Respecto al procesamiento de las muestras, tanto para análisis de calidad de suelo como de agua, lo más frecuente es que se realice en un laboratorio especializado en análisis de agua y suelos. Por esta razón, se recomienda consultar y seguir el protocolo de toma de muestras establecido por cada laboratorio, con el fin de asegurar la validez y comparabilidad de los resultados obtenidos.
       
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -699,7 +699,7 @@
       .col
         h3 Materiales y herramientas para la toma de muestras de suelo
 
-    p.mb-4.espacios__moviles Para realizar adecuadamente la toma de muestras de suelo destinadas al análisis de <strong>propiedades físicas, químicas y biológicas</strong>, es recomendable contar, como mínimo, con los siguientes elementos:
+    p.mb-4.espacios__moviles Para realizar adecuadamente la toma de muestras de suelo destinadas al análisis de propiedades físicas, químicas y biológicas, es recomendable contar, como mínimo, con los siguientes elementos:
 
     .row.mb-5.espacio__3
       .col-xl-4(data-aos="fade-right")
@@ -791,7 +791,7 @@
             .row.align-items-center
               .col-lg
                 h4 Muestreo manual
-                p.mb-0 Este tipo de muestreo se realiza en <strong>lugares de fácil acceso</strong> o en aquellos que, con ciertas adaptaciones, permiten facilitar la recolección de muestras. Una de sus principales ventajas es que el personal responsable puede <strong>observar directamente las características del agua</strong>, como la <strong>presencia de sustancias flotantes, color, olor</strong> y <strong>variaciones en el caudal</strong> (IDEAM, 2002).
+                p.mb-0 Este tipo de muestreo se realiza en lugares de fácil acceso o en aquellos que, con ciertas adaptaciones, permiten facilitar la recolección de muestras. Una de sus principales ventajas es que el personal responsable puede observar directamente las características del agua, como la presencia de sustancias flotantes, color, olor y variaciones en el caudal (IDEAM, 2002).
               .col-lg-auto
                 figure.d-none.d-xl-block
                   img(src="@/assets/curso/tema1/img76.png", alt="" style="max-width: 350px").m-auto
@@ -799,7 +799,7 @@
             .row.align-items-center
               .col-lg
                 h4 Muestreo automático
-                p.mb-0 Recomendado en sitios de <strong>difícil acceso</strong> o cuando se dispone del equipo adecuado, el muestreo automático ofrece <strong>mayor precisión</strong> en la recolección. Sin embargo, tiene como desventajas la <strong>complejidad de su montaje y calibración</strong>, además de requerir <strong>revisiones continuas</strong> para evitar atascamientos o fallas operativas (IDEAM, 2002).
+                p.mb-0 Recomendado en sitios de difícil acceso o cuando se dispone del equipo adecuado, el muestreo automático ofrece mayor precisión en la recolección. Sin embargo, tiene como desventajas la complejidad de su montaje y calibración, además de requerir revisiones continuas para evitar atascamientos o fallas operativas (IDEAM, 2002).
               .col-lg-auto
                 figure.d-none.d-xl-block
                   img(src="@/assets/curso/tema1/img77.png", alt="" style="max-width: 350px").m-auto
@@ -821,11 +821,11 @@
                   img(src="@/assets/curso/tema1/img78.svg", alt="" style="max-width: 300px").m-auto
               .col-xl
                 <ul class="fa-ul estilo__li">
-                  <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Fuente superficial cerca del nacimiento, acuífero o manantial.</li>
-                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Fuente superficial aguas arriba del agroecosistema.</li>
-                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Fuente superficial aguas abajo del agroecosistema.</li>
+                  <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Fuente superficial, cerca del nacimiento, acuífero o manantial.</li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Fuente superficial, aguas arriba del agroecosistema.</li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Fuente superficial, aguas abajo del agroecosistema.</li>
                   <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Principales tributarios antes de su desembocadura en la fuente superficial.</li>
-                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Fuente superficial aguas arriba de la desembocadura al mar.</li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Fuente superficial, aguas arriba de la desembocadura al mar.</li>
                   <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Vertimientos del agroecosistema, si los hay.</li>
                 </ul>
           .col-xl-auto(data-aos="fade-left")
@@ -849,7 +849,7 @@
                   figure.d-none.d-xl-block
                     img(src='@/assets/curso/tema1/img80.svg', alt="" style="max-width: 90px").m-auto
               h3.text-center Muestra puntual
-              p.mb-0 Corresponde a una muestra representativa <strong>tomada en un solo punto y momento</strong>, en la que el <strong>tiempo y lugar no influyen significativamente</strong> en los resultados.
+              p.mb-0 Corresponde a una muestra representativa tomada en un solo punto y momento, en la que el tiempo y lugar no influyen significativamente en los resultados.
           .col-xl-4.espacios__moviles_1(data-aos="fade-up")
             .tarjeta--boton.p-5.h-100
               .row.justify-content-center.mb-3
@@ -857,7 +857,7 @@
                   figure.d-none.d-xl-block
                     img(src='@/assets/curso/tema1/img81.svg', alt="" style="max-width: 90px").m-auto
               h3.text-center Muestra compuesta
-              p.mb-0 Está formada por <strong>varias muestras puntuales</strong> recolectadas en <strong>intervalos y periodos determinados</strong>, lo que permite obtener una visión más completa de los cambios en el tiempo.
+              p.mb-0 Está formada por varias muestras puntuales recolectadas en intervalos y periodos determinados, lo que permite obtener una visión más completa de los cambios en el tiempo.
           .col-xl-4.espacios__moviles_1(data-aos="fade-left")
             .tarjeta--boton.p-5.h-100
               .row.justify-content-center.mb-3
@@ -865,14 +865,14 @@
                   figure.d-none.d-xl-block
                     img(src='@/assets/curso/tema1/img82.svg', alt="" style="max-width: 90px").m-auto
               h3.text-center Muestra integrada
-              p.mb-0 Consiste en la <strong>mezcla de varias muestras tomadas simultáneamente en distintos puntos</strong>, con el objetivo de obtener un <strong>valor promedio representativo</strong> del área evaluada.
+              p.mb-0 Consiste en la mezcla de varias muestras tomadas simultáneamente en distintos puntos, con el objetivo de obtener un valor promedio representativo del área evaluada.
 
     .row.align-items-center.mb-5
       .col-xl-auto
         figure.d-none.d-xl-block(data-aos="fade-right")
           img(src="@/assets/curso/tema1/img83.svg", alt="" style="max-width: 300px").m-auto
       .col-xl
-        p.mb-0 El muestreo de agua es una actividad fundamental para evaluar la calidad de los recursos hídricos en un agroecosistema. Involucra tanto la <strong>medición directa de parámetros en campo</strong>, como la <strong>recolección, conservación y análisis de muestras en laboratorio</strong>, siguiendo criterios técnicos y protocolos específicos.
+        p.mb-0 El muestreo de agua es una actividad fundamental para evaluar la calidad de los recursos hídricos en un agroecosistema. Involucra tanto la medición directa de parámetros en campo, como la recolección, conservación y análisis de muestras en laboratorio, siguiendo criterios técnicos y protocolos específicos.
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -881,14 +881,14 @@
       .col
         h3 Técnicas de muestreo en agua
 
-    p.mb-4.espacios__moviles El muestreo de agua es una actividad fundamental para evaluar la calidad de los recursos hídricos en un agroecosistema. Involucra tanto la <strong>medición directa de parámetros en campo</strong>, como la <strong>recolección, conservación y análisis de muestras en laboratorio</strong>, siguiendo criterios técnicos y protocolos específicos.
+    p.mb-4.espacios__moviles El muestreo de agua es una actividad fundamental para evaluar la calidad de los recursos hídricos en un agroecosistema. Involucra tanto la medición directa de parámetros en campo, como la recolección, conservación y análisis de muestras en laboratorio, siguiendo criterios técnicos y protocolos específicos.
 
     TabsA.color-acento-botones.mb-5(data-aos="fade-up")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Medición de parámetros en campo")
         .row.align-items-center
           .col-lg
             h4 Medición de parámetros en campo
-            p.mb-0 Los parámetros como el <strong>pH, oxígeno disuelto, conductividad, turbiedad y temperatura</strong> se miden utilizando <strong>equipos portátiles</strong>, tales como <strong>sondas multiparamétricas, pHmetros y conductímetros</strong>. Estas herramientas permiten obtener valores inmediatos y confiables sobre las condiciones del agua en el lugar de muestreo.
+            p.mb-0 Los parámetros como el pH, oxígeno disuelto, conductividad, turbiedad y temperatura se miden utilizando equipos portátiles, tales como sondas multiparamétricas, pHmetros y conductímetros. Estas herramientas permiten obtener valores inmediatos y confiables sobre las condiciones del agua en el lugar de muestreo.
           .col-lg-auto
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img84.png", alt="" style="max-width: 350px").m-auto
@@ -896,7 +896,7 @@
         .row.align-items-center
           .col-lg
             h4 Aguas superficiales y vertimientos
-            p.mb-0 En fuentes superficiales, el equipo se introduce directamente en la <strong>sección transversal</strong> del cuerpo de agua, evitando zonas con <strong>alta turbulencia</strong>. Si no es posible hacerlo de esta forma, se recoge el agua en un <strong>recipiente plástico purgado</strong> y se realiza la lectura <strong>inmediatamente</strong>. En el caso de vertimientos, la muestra se toma en un recipiente plástico y se mide con el equipo, procurando que este <strong>no toque el fondo</strong> para evitar alteraciones en la lectura.
+            p.mb-0 En fuentes superficiales, el equipo se introduce directamente en la sección transversal del cuerpo de agua, evitando zonas con alta turbulencia. Si no es posible hacerlo de esta forma, se recoge el agua en un recipiente plástico purgado y se realiza la lectura inmediatamente. En el caso de vertimientos, la muestra se toma en un recipiente plástico y se mide con el equipo, procurando que este no toque el fondo para evitar alteraciones en la lectura.
           .col-lg-auto
             figure.d-none.d-xl-block
               img(src="@/assets/curso/tema1/img85.png", alt="" style="max-width: 350px").m-auto
@@ -908,7 +908,7 @@
       .col
         h3 Manejo de muestras de agua
 
-    p.mb-4.espacios__moviles El <strong>manejo adecuado de las muestras de agua</strong> es esencial para garantizar la representatividad y la confiabilidad de los análisis posteriores. Este manejo incluye tanto la definición de la frecuencia de muestreo como la correcta manipulación, rotulado, almacenamiento y transporte de las muestras hacia el laboratorio.
+    p.mb-4.espacios__moviles El manejo adecuado de las muestras de agua es esencial para garantizar la representatividad y la confiabilidad de los análisis posteriores. Este manejo incluye tanto la definición de la frecuencia de muestreo como la correcta manipulación, rotulado, almacenamiento y transporte de las muestras hacia el laboratorio.
 
     .row.align-items-center.mb-5
       .col-xl
@@ -918,11 +918,11 @@
               img(src="@/assets/curso/tema1/img86.png", alt="" style="max-width: 400px").m-auto
           .col-xl
             h4.estilo___h4 Frecuencia de muestreo
-            p La periodicidad del muestreo debe definirse según los <strong>objetivos del estudio de variables ambientales</strong> en el agroecosistema. Sin embargo, se recomienda realizar al menos <strong>cuatro (4) muestreos al año</strong>, distribuidos de la siguiente forma:
+            p La periodicidad del muestreo debe definirse según los objetivos del estudio de variables ambientales en el agroecosistema. Sin embargo, se recomienda realizar al menos cuatro (4) muestreos al año, distribuidos de la siguiente forma:
             <ul class="fa-ul">
-              <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Uno (1) durante la <strong>época de lluvias</strong>.</li>
-              <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Uno (1) en <strong>época seca</strong>.</li>
-              <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Dos (2) en <strong>épocas de transición</strong>.</li>
+              <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Uno (1) durante la época de lluvias.</li>
+              <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Uno (1) en época seca.</li>
+              <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Dos (2) en épocas de transición.</li>
             </ul>
         .bloque-texto-b.color-primario.mb-4.ajuste__cita_3
           .bloque-texto-b__texto
@@ -940,14 +940,14 @@
       .col
         h3 Caudales
 
-    p.mb-4.espacios__moviles El <strong>caudal</strong> es una variable ambiental que se refiere al <strong>volumen de agua que fluye a través de una sección transversal</strong> de un cuerpo de agua en un intervalo de tiempo determinado. Se expresa comúnmente en <strong>metros cúbicos por segundo (m³/s)</strong> o <strong>litros por segundo (L/s)</strong>.
+    p.mb-4.espacios__moviles El caudal es una variable ambiental que se refiere al volumen de agua que fluye a través de una sección transversal de un cuerpo de agua en un intervalo de tiempo determinado. Se expresa comúnmente en metros cúbicos por segundo (m³/s) o litros por segundo (L/s).
 
     .row.align-items-center.mb-5
       .col-xl-auto
         figure.d-none.d-xl-block(data-aos="fade-right")
           img(src="@/assets/curso/tema1/img88.svg", alt="" style="max-width: 500px").m-auto
       .col-xl.estilo__caja_16(data-aos="fade-left")
-        p.mb-0 La medición del caudal es fundamental para caracterizar tanto <strong>fuentes hídricas naturales</strong> como <strong>puntos de captación (bocatomas)</strong> o <strong>vertimientos</strong> provenientes de actividades productivas dentro del agroecosistema. Para este fin, se emplean distintos tipos de <strong>aforos líquidos</strong>, dependiendo de las condiciones del sitio de muestreo.
+        p.mb-0 La medición del caudal es fundamental para caracterizar tanto fuentes hídricas naturales como puntos de captación (bocatomas) o vertimientos provenientes de actividades productivas dentro del agroecosistema. Para este fin, se emplean distintos tipos de aforos líquidos, dependiendo de las condiciones del sitio de muestreo.
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -956,7 +956,7 @@
       .col
         h3 Métodos de aforo
 
-    p.mb-4.espacios__moviles Existen diversos <strong>métodos de aforo</strong>, cuya aplicación varía según las características de la <strong>fuente hídrica o el vertimiento</strong>. A continuación, se presentan los métodos más comunes y su principal aplicación:
+    p.mb-4.espacios__moviles Existen diversos métodos de aforo, cuya aplicación varía según las características de la fuente hídrica o el vertimiento. A continuación, se presentan los métodos más comunes y su principal aplicación:
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-up")
       h5 Tabla 2.
@@ -1059,7 +1059,7 @@
                 figure.d-none.d-xl-block
                   img(src="@/assets/curso/tema1/img93.svg", alt="" style="max-width: 67px").m-auto
               .col-xl
-                p.mb-0 <strong>Estimado aprendiz</strong>: para profundizar en el tema y comprenderlo mejor, se sugiere consultar en el material complementario el Protocolo de monitoreo y seguimiento del agua del IDEAM.
+                p.mb-0 Estimado aprendiz: para profundizar en el tema y comprenderlo mejor, se sugiere consultar en el material complementario el Protocolo de monitoreo y seguimiento del agua del IDEAM.
     
     .caja-titulos-tercer-nivel.mb-5.espacios__moviles(data-aos="fade-right")
       .col-lg-auto
@@ -1094,8 +1094,7 @@
           .col-xl-10
             .row.align-items-center.estilo__caja_18
               .col-xl
-                figure.mb-3
-                  img(src="@/assets/curso/tema1/img97.svg", alt="" style="max-width: 186px")
+                p.mb-3.estilo__p <strong>Vi =</strong> (V*Qi) / (n*Qp)
                 p.mb-3 Dónde:
                 p.mb-2.estilo__p <strong>Vi =</strong> Volumen de cada alícuota o porción de muestra
                 p.mb-2.estilo__p <strong>V =</strong> Volumen total a componer.
@@ -1146,9 +1145,9 @@
       .col
         h3 Herramientas, materiales y equipos requeridos para el muestreo en agua
 
-    p.mb-4.espacios__moviles Para realizar un muestreo de agua adecuado y conforme a los protocolos establecidos, es necesario contar con una <strong>dotación completa de herramientas</strong>, materiales y equipos. Estos elementos aseguran la correcta recolección, conservación y transporte de las muestras, así como la seguridad del personal en campo.
+    p.mb-4.espacios__moviles Para realizar un muestreo de agua adecuado y conforme a los protocolos establecidos, es necesario contar con una dotación completa de herramientas, materiales y equipos. Estos elementos aseguran la correcta recolección, conservación y transporte de las muestras, así como la seguridad del personal en campo.
 
-    p.mb-4 A continuación, se enumeran los materiales recomendados para el <strong>muestreo en aguas</strong>:
+    p.mb-4 A continuación, se enumeran los materiales recomendados para el muestreo en aguas:
 
     .fondo_img_1.mb-5(data-aos="fade-up")
       .px-5
@@ -1157,67 +1156,67 @@
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img102.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Mapas</strong> de la red de calidad del agua o de los <strong>puntos de monitoreo georreferenciados</strong> previamente seleccionados.
+            p.mb-0 Mapas de la red de calidad del agua o de los puntos de monitoreo georreferenciados previamente seleccionados.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img103.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Libreta de campo</strong> para el registro de observaciones.
+            p.mb-0 Libreta de campo para el registro de observaciones.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img104.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Marcadores o rotuladores</strong> y <strong>cinta de enmascarar</strong> para el rotulado de frascos y bolsas.
+            p.mb-0 Marcadores o rotuladores y cinta de enmascarar para el rotulado de frascos y bolsas.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img105.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Bolsas</strong> para transporte o recolección de materiales auxiliares.
+            p.mb-0 Bolsas para transporte o recolección de materiales auxiliares.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img106.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Documentos necesarios</strong>: formatos de captura de datos, etiquetas de identificación, y formatos de cadena de custodia.
+            p.mb-0 Documentos necesarios: formatos de captura de datos, etiquetas de identificación, y formatos de cadena de custodia.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img107.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Dotación personal de seguridad</strong>: guantes, botas, chalecos, gorros y cascos.
+            p.mb-0 Dotación personal de seguridad: guantes, botas, chalecos, gorros y cascos.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img108.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Botellas de plástico y de vidrio</strong>, según los requerimientos del análisis.
+            p.mb-0 Botellas de plástico y de vidrio, según los requerimientos del análisis.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img109.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Reactivos para la preservación</strong> de las muestras recolectadas.
+            p.mb-0 Reactivos para la preservación de las muestras recolectadas.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img110.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Reactivos para análisis in situ</strong>, en caso de mediciones inmediatas en campo.
+            p.mb-0 Reactivos para análisis in situ, en caso de mediciones inmediatas en campo.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img111.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Agua destilada</strong>, para enjuague y limpieza del material de muestreo.
+            p.mb-0 Agua destilada, para enjuague y limpieza del material de muestreo.
 
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img112.svg' style="max-width: 90px").m-auto
-            p.mb-0 <strong>Nevera portátil</strong>, indispensable para conservar las muestras a bajas temperaturas hasta su llegada al laboratorio.
+            p.mb-0 Nevera portátil, indispensable para conservar las muestras a bajas temperaturas hasta su llegada al laboratorio.
         
         .row.mb-5.justify-content-center.m-0
           .col-xl-10
@@ -1227,7 +1226,7 @@
                   img(src="@/assets/curso/tema1/img113.png", alt="" style="max-width: 275px").m-auto
               .col-xl
                 h5.mb-3 Importante
-                p.mb-0 Si el muestreo se realiza sobre un <strong>vertimiento</strong>, deben tenerse en cuenta los <strong>parámetros específicos que deben analizarse</strong>, los cuales varían según el tipo de actividad productiva asociada. Para ello, es necesario consultar la <strong>Resolución 0631 de 2015</strong>, donde se establece el marco normativo para los vertimientos y los parámetros sujetos a control. Para mayor comprensión sobre este tema, se recomienda revisar dicha resolución en el <strong>material complementario</strong> proporcionado.
+                p.mb-0 Si el muestreo se realiza sobre un vertimiento, deben tenerse en cuenta los parámetros específicos que deben analizarse, los cuales varían según el tipo de actividad productiva asociada. Para ello, es necesario consultar la Resolución 0631 de 2015, donde se establece el marco normativo para los vertimientos y los parámetros sujetos a control. Para mayor comprensión sobre este tema, se recomienda revisar dicha resolución en el material complementario proporcionado.
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -1255,7 +1254,7 @@
         
         .row.align-items-center.mb-5
           .col-xl
-            p.mb-0 Para garantizar las condiciones adecuadas de <strong>transporte, preservación e integridad de la muestra</strong>, así como para contar con toda la <strong>información técnica y de trazabilidad</strong>, el responsable del muestreo debe <strong>diligenciar la cadena de custodia</strong>. Este documento es esencial para asegurar que la muestra recolectada no ha sido alterada, contaminada o manipulada inadecuadamente entre el punto de muestreo y el laboratorio de análisis. Cada laboratorio, como parte de su <strong>Sistema de Gestión de Calidad</strong>, cuenta con un <strong>formato propio</strong> de cadena de custodia. Sin embargo, a continuación se presenta un ejemplo general que ilustra los campos básicos que usualmente se deben registrar:
+            p.mb-0 Para garantizar las condiciones adecuadas de transporte, preservación e integridad de la muestra, así como para contar con toda la información técnica y de trazabilidad, el responsable del muestreo debe diligenciar la cadena de custodia. Este documento es esencial para asegurar que la muestra recolectada no ha sido alterada, contaminada o manipulada inadecuadamente entre el punto de muestreo y el laboratorio de análisis. Cada laboratorio, como parte de su Sistema de Gestión de Calidad, cuenta con un formato propio de cadena de custodia. Sin embargo, a continuación se presenta un ejemplo general que ilustra los campos básicos que usualmente se deben registrar:
           .col-xl-auto
             figure.d-none.d-xl-block(data-aos="fade-left") 
               img(src="@/assets/curso/tema1/img117.svg", alt="" style="max-width: 500px").m-auto
@@ -1287,7 +1286,7 @@
 
     .fondo_color_10
       .px-5
-        p.mb-4.espacios__moviles El análisis de la calidad del agua requiere del uso de equipos e instrumentos especializados que permitan medir, con precisión, diferentes variables físico-químicas y biológicas. Aunque en la mayoría de los casos las muestras recolectadas son <strong>procesadas en laboratorio</strong>, es importante tener en cuenta que <strong>cada laboratorio puede definir su propio protocolo</strong> de toma y recepción de muestras. Por ello, se recomienda consultar con antelación dichos lineamientos para asegurar que los procedimientos de campo sean compatibles con los requerimientos del análisis. A continuación, se presentan algunos de los <strong>equipos más utilizados para la medición de parámetros de calidad de agua</strong>:
+        p.mb-4.espacios__moviles El análisis de la calidad del agua requiere del uso de equipos e instrumentos especializados que permitan medir, con precisión, diferentes variables físico-químicas y biológicas. Aunque en la mayoría de los casos las muestras recolectadas son procesadas en laboratorio, es importante tener en cuenta que cada laboratorio puede definir su propio protocolo de toma y recepción de muestras. Por ello, se recomienda consultar con antelación dichos lineamientos para asegurar que los procedimientos de campo sean compatibles con los requerimientos del análisis. A continuación, se presentan algunos de los equipos más utilizados para la medición de parámetros de calidad de agua:
         
         .row.justify-content-center.mb-3
           .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -1338,7 +1337,7 @@
 
     .row.align-items-center.mb-5
       .col-xl  
-        p.mb-4 Como parte de las <strong>variables ambientales</strong> que pueden influir en un agroecosistema, las <strong>comunidades hidrobiológicas</strong> (como macroinvertebrados, fitoplancton o zooplancton) representan indicadores clave del estado ecológico del recurso hídrico.
+        p.mb-4 Como parte de las variables ambientales que pueden influir en un agroecosistema, las comunidades hidrobiológicas (como macroinvertebrados, fitoplancton o zooplancton) representan indicadores clave del estado ecológico del recurso hídrico.
         .bloque-texto-b.color-primario.mb-4.ajuste__cita_4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
@@ -1357,19 +1356,19 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-left")
             .row(titulo="Recomendaciones generales").ajuste-cajaAcordion
               <ul class="fa-ul">
-                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Establecer un plan de muestreo</strong>, que incluya objetivos, sitios, frecuencia y técnicas a utilizar.</li>
-                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Conocer y aplicar el protocolo de muestreo</strong> correspondiente al tipo de comunidad hidrobiológica.</li>
-                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Contar con personal idóneo y capacitado</strong> para la recolección, preservación y registro de muestras.</li>
-                <li><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Llevar los formatos de campo</strong> para el registro sistemático de la información recolectada.</li>
+                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Establecer un plan de muestreo, que incluya objetivos, sitios, frecuencia y técnicas a utilizar.</li>
+                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Conocer y aplicar el protocolo de muestreo correspondiente al tipo de comunidad hidrobiológica.</li>
+                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Contar con personal idóneo y capacitado para la recolección, preservación y registro de muestras.</li>
+                <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Llevar los formatos de campo para el registro sistemático de la información recolectada.</li>
               </ul>
             .row(titulo="Para el etiquetado de las muestras, se debe incluir la siguiente información").ajuste-cajaAcordion
               <ul class="fa-ul">
-                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Comunidad hidrobiológica</strong> muestreada (por ejemplo: macroinvertebrados, fitoplancton, etc.).</li>
-                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Fecha de colecta</strong> (día, mes y año).</li>
-                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Ubicación geográfica</strong> o nombre del sitio de muestreo.</li>
-                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Tipo de muestra</strong> (agua, sedimento, red de arrastre, etc.).</li>
-                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Modo de preservación</strong> (alcohol, formol, refrigeración, entre otros).</li>
-                <li><span class="fa-li "><i class="fas fa-leaf"></i></span><strong>Nombre del colector</strong> o persona responsable de la toma de la muestra.</li>
+                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Comunidad hidrobiológica muestreada (por ejemplo: macroinvertebrados, fitoplancton, etc.).</li>
+                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Fecha de colecta (día, mes y año).</li>
+                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Ubicación geográfica o nombre del sitio de muestreo.</li>
+                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Tipo de muestra (agua, sedimento, red de arrastre, etc.).</li>
+                <li class="mb-2"><span class="fa-li "><i class="fas fa-leaf"></i></span>Modo de preservación (alcohol, formol, refrigeración, entre otros).</li>
+                <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Nombre del colector o persona responsable de la toma de la muestra.</li>
               </ul>
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
@@ -1393,7 +1392,7 @@
       .col
         h3 Tipos de muestras
 
-    p.mb-4.espacios__moviles El muestreo de comunidades hidrobiológicas puede involucrar dos tipos principales de muestras: <strong>cualitativas</strong> y <strong>cuantitativas</strong>. Ambas cumplen funciones complementarias en el análisis ecológico.
+    p.mb-4.espacios__moviles El muestreo de comunidades hidrobiológicas puede involucrar dos tipos principales de muestras: cualitativas y cuantitativas. Ambas cumplen funciones complementarias en el análisis ecológico.
 
     TabsA.color-acento-botones.mb-5(data-aos="fade-up")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Muestras cualitativas")
@@ -1474,7 +1473,7 @@
                 figure.d-none.d-xl-block
                   img(src="@/assets/curso/tema1/img93.svg", alt="" style="max-width: 67px").m-auto
               .col-xl
-                p.mb-0 <strong>Estimado aprendiz</strong>: si desea conocer sobre el procedimiento de las muestras de comunidades hidrobiológicas en laboratorio, puede consultar el Protocolo de monitoreo y seguimiento del agua del IDEAM, el cual se encuentra en el material complementario.
+                p.mb-0 Estimado aprendiz: si desea conocer sobre el procedimiento de las muestras de comunidades hidrobiológicas en laboratorio, puede consultar el Protocolo de monitoreo y seguimiento del agua del IDEAM, el cual se encuentra en el material complementario.
 
     Separador
     <!-- BLOQUE 5 -->
@@ -1502,7 +1501,7 @@
           .col
             h3 Tipos de muestras
 
-        p.mb-4.espacios__moviles Existen dos tipos principales de muestras utilizadas en el muestreo de macroinvertebrados acuáticos: <strong>cuantitativas y cualitativas</strong>. La siguiente tabla resume sus características principales:
+        p.mb-4.espacios__moviles Existen dos tipos principales de muestras utilizadas en el muestreo de macroinvertebrados acuáticos: cuantitativas y cualitativas. La siguiente tabla resume sus características principales:
     
     .row.fondo-slider.mb-5
       .ajuste-slider(data-aos="fade-up")
@@ -1518,7 +1517,7 @@
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6.mb-4.col-xs-12
               h4 Muestra cualitativa
-              p.mb-0 No se considera un área delimitada para la recolección. Tras la identificación, los resultados se reportan como <strong>presencia-ausencia</strong> de macroinvertebrados.
+              p.mb-0 No se considera un área delimitada para la recolección. Tras la identificación, los resultados se reportan como presencia-ausencia de macroinvertebrados.
             .col-lg-6
               .titulo-sexto.color-acento-contenido.mb-2
               figure.d-none.d-xl-block
@@ -1564,7 +1563,7 @@
           img(src="@/assets/curso/tema1/img145.svg", alt="" style="max-width: 72px").m-auto
       .col-xl-9
         h5.mb-2 Preservación de las muestras de agua
-        p.mb-0 Se invita a leer el documento <strong>Preservación de las muestras de agua</strong>, donde se aborda la importancia de aplicar métodos adecuados de conservación química y térmica en las muestras de agua tras su recolección.
+        p.mb-0 Se invita a leer el documento Preservación de las muestras de agua, donde se aborda la importancia de aplicar métodos adecuados de conservación química y térmica en las muestras de agua tras su recolección.
       .col-xl-1
         a.boton.color-acento-botones(:href="obtenerLink('/downloads/Preservacion_muestras_agua.pdf')" target="_blank")
           span Descargar
