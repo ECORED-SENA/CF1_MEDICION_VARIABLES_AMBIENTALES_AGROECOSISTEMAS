@@ -21,10 +21,10 @@ export default {
         'Reconocimiento de aspectos asociados al muestreo de variables ambientales.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Fortalecer las habilidades para realizar muestreo de variables ambientales que tienen incidencia en los agroecosistemas.',
+        '<b> Objetivo:</b> fortalecer las habilidades para realizar muestreo de variables ambientales que tienen incidencia en los agroecosistemas.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,

@@ -22,6 +22,7 @@
             i.fas.fa-quote-left
             h3.mb-0 Para el plan del muestreo, es necesario precisar los objetivos que permitan un óptimo proceso de recolección de la información necesaria para la representación del lugar de muestreo, precisando.
             i.fas.fa-quote-right
+            p.d-flex.justify-content-end.me-2 (Ministerio del Ambiente, 2014).
         .row.align-items-center.estilo__caja_3(data-aos="fade-right")
           .col-xl-auto
             figure.d-none.d-xl-block
@@ -108,39 +109,34 @@
     .row.fondo-slider.mb-5
       .ajuste-slider(data-aos="fade-up")
         SlyderA(tipo="b")
-          .row.h-100.justify-content-center.align-items-center
-            .col-lg-6.mb-4.col-xs-12
+          .row.justify-content-center.align-items-center.p-2
+            .col-lg-5.mb-4.mb-lg-0
               h4 Muestreo simple
               p.mb-0 Se realiza en un único punto determinado por el productor o técnico, con base en necesidades específicas. Es útil en zonas heterogéneas de pequeña extensión, donde se identifican diferencias visibles como cambios en el relieve, textura, color superficial o vegetación.
-            .col-lg-6
-              figure.d-none.d-lg-block
-                img(src='@/assets/curso/tema1/img8.svg', alt='' style="max-width: 500px").m-auto
-
-          .row.h-100.justify-content-center.align-items-center
-            .col-lg-6.mb-4.col-xs-12
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema1/img8.png', alt='', style="max-width: 450px").m-auto
+          .row.justify-content-center.align-items-center
+            .col-lg-5.mb-4.mb-lg-0
               h4 Muestreo compuesto
               p.mb-0 Es el método más sencillo y común. Se toman varias submuestras en patrón aleatorio (en zig zag), las cuales se mezclan completamente. Luego, mediante la técnica de cuarteo, se obtiene una muestra representativa de aproximadamente 1 kg. Ideal para representar uniformemente un área.
-            .col-lg-6
-              .titulo-sexto.color-acento-contenido.mb-2
+            .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/img9.svg', alt='' style="max-width: 500px").m-auto
-
-          .row.h-100.justify-content-center.align-items-center
-            .col-lg-6.mb-4.col-xs-12
+                img(src='@/assets/curso/tema1/img9.png', alt='', style="max-width: 450px").m-auto
+          .row.justify-content-center.align-items-center
+            .col-lg-5.mb-4.mb-lg-0
               h4 Muestreo sistemático
               p.mb-0 Las muestras se ubican siguiendo un patrón regular, a partir de un punto inicial seleccionado al azar. A partir de este se establece una distancia uniforme para los demás puntos. Se puede aplicar una rejilla rectangular o polar para su ejecución. Este método mejora la cobertura espacial.
-            .col-lg-6
-              figure.d-none.d-lg-block
-                img(src='@/assets/curso/tema1/img10.svg', alt='' style="max-width: 500px").m-auto
-
-          .row.h-100.justify-content-center.align-items-center
-            .col-lg-6.mb-4.col-xs-12
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema1/img10.png', alt='', style="max-width: 450px").m-auto
+          .row.justify-content-center.align-items-center
+            .col-lg-5.mb-4.mb-lg-0
               h4 Muestreo estratificado
               p.mb-0 Se basa en dividir el terreno en estratos con características similares, como topografía, horizontes del suelo, cambios de color o variaciones en el crecimiento del cultivo. Cada estrato se muestrea de forma independiente, lo cual mejora la precisión en terrenos heterogéneos. Es clave observar bien los atributos del perfil del suelo, ya que suele haber horizontes bien definidos.
-            .col-lg-6
-              .titulo-sexto.color-acento-contenido.mb-2
-              figure.d-none.d-lg-block
-                img(src='@/assets/curso/tema1/img11.svg', alt='' style="max-width: 500px").m-auto
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema1/img11.png', alt='', style="max-width: 450px").m-auto
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -201,20 +197,21 @@
           .col
             h3 Ubicación de puntos en muestreo aleatorio simple
 
-        .row.align-items-center.mb-5
+        .row.align-items-center.mb-3
           .col-xl
-            .bloque-texto-b.color-primario.mb-4.ajuste__cita.ajuste__cita_movil(data-aos="fade-right")
+            .bloque-texto-b.color-primario.mb-4(data-aos="fade-right")
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
                 h3.mb-0 Localizar los puntos de muestreo en un plano cartesiano (Xi, Yj) garantiza que cada individuo de la población tenga igual probabilidad de ser elegido. Este método resulta especialmente útil cuando se cuenta con información limitada sobre las características de la población y se requiere realizar un análisis estadístico, ya que permite explorar todas las combinaciones posibles de unidades de muestreo a seleccionar.
                 i.fas.fa-quote-right
+                p.d-flex.justify-content-end.me-2 (Ministerio del Ambiente, 2014).
           .col-xl-auto
             figure.d-none.d-xl-block(data-aos="fade-left")
               img(src="@/assets/curso/tema1/img20.png", alt="" style="max-width: 295px").m-auto
 
     .row.align-items-center.mb-5.justify-content-center
       .col-xl-8
-        .row.espacios__moviles_2(data-aos="fade-up")
+        .row(data-aos="fade-up")
           .col-xl-6
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 1.
@@ -234,7 +231,7 @@
       .col
         h3 Muestreo aleatorio estratificado
     
-    p.mb-4.espacios__moviles Para llevar a cabo un muestreo más preciso y representativo, es fundamental dividir previamente el área de estudio en subgrupos o estratos que presenten homogeneidad en sus características. En cada uno de estos estratos se aplica un muestreo aleatorio simple.
+    p.mb-4 Para llevar a cabo un muestreo más preciso y representativo, es fundamental dividir previamente el área de estudio en subgrupos o estratos que presenten homogeneidad en sus características. En cada uno de estos estratos se aplica un muestreo aleatorio simple.
 
     .row.align-items-center.mb-5
       .col-xl-auto
@@ -290,7 +287,8 @@
                 i.fas.fa-quote-left
                 h3.mb-0 El muestreo aleatorio estratificado permite que los puntos de muestreo se distribuyan de manera más uniforme en toda el área, considerando además el tamaño de cada estrato. De esta forma, se obtiene un conocimiento más detallado y específico sobre las características particulares de cada subgrupo.
                 i.fas.fa-quote-right
-          .col-lg-5.espacios__moviles_3
+                p.d-flex.justify-content-end.me-2 (Ministerio del Ambiente, 2014).
+          .col-lg-5
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 2.
               span Ubicación puntos en muestreo aleatorio estratificado
@@ -305,17 +303,18 @@
       .col
         h3 Muestreo sistemático (rejillas rectangulares)
 
-    p.mb-4.espacios__moviles El muestreo sistemático mediante rejillas rectangulares consiste en colocar las muestras siguiendo un patrón regular en toda la zona de estudio. Este procedimiento comienza desde un punto aleatorio inicial, y a partir de él se determina una distancia específica para ubicar los demás puntos de muestreo, manteniendo así la uniformidad entre ellos.
+    p.mb-4 El muestreo sistemático mediante rejillas rectangulares consiste en colocar las muestras siguiendo un patrón regular en toda la zona de estudio. Este procedimiento comienza desde un punto aleatorio inicial, y a partir de él se determina una distancia específica para ubicar los demás puntos de muestreo, manteniendo así la uniformidad entre ellos.
 
     .row.align-items-center.mb-3.justify-content-center
       .col-lg-10
         .row.estilo__caja_8(data-aos="fade-up")
           .col-lg-7
-            .bloque-texto-b.color-primario.mb-4.ajuste__cita_1
+            .bloque-texto-b.color-primario.mb-4
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
                 h3.mb-0 Este método es aplicable a superficies de cualquier tamaño, ya que permite adaptar la ubicación de las muestras según las dimensiones y la forma del terreno. La separación entre puntos puede variar desde unos pocos centímetros hasta varios kilómetros, dependiendo del tipo de estudio a realizar.
                 i.fas.fa-quote-right
+                p.d-flex.justify-content-end.me-2 (ICONTEC, 1997).
           .col-lg-5.espacios__moviles_3
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 3.
@@ -523,13 +522,14 @@
                 figure.d-none.d-xl-block
                   img(src="@/assets/curso/tema1/img53.svg" style="max-width: 300px")
               .col-lg
-                .bloque-texto-b.color-primario.mb-4.ajuste__cita_2
+                .bloque-texto-b.color-primario.mb-4
                   .bloque-texto-b__texto
                     i.fas.fa-quote-left
                     h3.mb-0 Frecuencia de muestreo 
                     br
                     h3 En el caso del muestreo de suelos, se recomienda realizar al menos uno (1) al año, o más si el objetivo del estudio de variables ambientales así lo requiere.
                     i.fas.fa-quote-right
+                    p.d-flex.justify-content-end.me-2 (MUÑOZ, 2018).
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
         .col-lg-auto
@@ -924,11 +924,12 @@
               <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Uno (1) en época seca.</li>
               <li><span class="fa-li "><i class="fas fa-leaf"></i></span>Dos (2) en épocas de transición.</li>
             </ul>
-        .bloque-texto-b.color-primario.mb-4.ajuste__cita_3
+        .bloque-texto-b.color-primario.mb-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             h3 Para otros parámetros más específicos, como plaguicidas y metales pesados, se aconseja realizar dos (2) muestreos anuales en los puntos previamente establecidos para tal fin.
             i.fas.fa-quote-right
+            p.d-flex.justify-content-end.me-2 (IDEAM, 2018).
       .col-xl-auto
         figure.d-none.d-xl-block(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img87.png", alt="" style="max-width: 300px").m-auto
@@ -1335,19 +1336,20 @@
         #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.4 Muestreo en comunidades hidrobiológicas
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-4
       .col-xl  
         p.mb-4 Como parte de las variables ambientales que pueden influir en un agroecosistema, las comunidades hidrobiológicas (como macroinvertebrados, fitoplancton o zooplancton) representan indicadores clave del estado ecológico del recurso hídrico.
-        .bloque-texto-b.color-primario.mb-4.ajuste__cita_4
+        .bloque-texto-b.color-primario.mb-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             h3 Para realizar este tipo de muestreo, es fundamental seguir una planificación adecuada y cumplir con criterios técnicos que garanticen la validez de los resultados. A continuación, se presentan las recomendaciones básicas.
             i.fas.fa-quote-right
+            p.d-flex.justify-content-end.me-2 Según el IDEAM (2021).
       .col-xl-auto
         figure.d-none.d-xl-block(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img126.svg", alt="" style="max-width: 400px").m-auto
     
-    .bg--img_03.mb-5.espacios__moviles_8
+    .bg--img_03.mb-5
       .row.h-100.align-items-center
         .col-lg-auto
           figure(data-aos="fade-right").d-none.d-xl-block
@@ -1506,22 +1508,20 @@
     .row.fondo-slider.mb-5
       .ajuste-slider(data-aos="fade-up")
         SlyderA(tipo="b")
-          .row.h-100.justify-content-center.align-items-center
-            .col-lg-6.mb-4.col-xs-12
+          .row.justify-content-center.align-items-center
+            .col-lg-5.mb-4.mb-lg-0
               h4 Muestra cuantitativa
               p.mb-0 Permite determinar la densidad de individuos por metro cuadrado. Para recolectarla, se capturan los macroinvertebrados en un área específica del cuerpo de agua, que debe ser de al menos un metro cuadrado. Se recomienda el uso de la <em>red Surber</em>.
-            .col-lg-6
-              figure.d-none.d-xl-block
-                img(src='@/assets/curso/tema1/img141.svg', alt='' style="max-width: 500px").m-auto
-
-          .row.h-100.justify-content-center.align-items-center
-            .col-lg-6.mb-4.col-xs-12
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema1/img141.svg', alt='' style="max-width: 450px").m-auto
+          .row.justify-content-center.align-items-center
+            .col-lg-5.mb-4.mb-lg-0
               h4 Muestra cualitativa
               p.mb-0 No se considera un área delimitada para la recolección. Tras la identificación, los resultados se reportan como presencia-ausencia de macroinvertebrados.
-            .col-lg-6
-              .titulo-sexto.color-acento-contenido.mb-2
-              figure.d-none.d-xl-block
-                img(src='@/assets/curso/tema1/img142.svg', alt='' style="max-width: 500px").m-auto
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema1/img142.svg', alt='' style="max-width: 450px").m-auto
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto

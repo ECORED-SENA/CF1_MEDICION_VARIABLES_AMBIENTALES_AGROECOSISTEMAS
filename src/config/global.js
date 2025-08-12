@@ -184,9 +184,8 @@ export default {
       link: '',
     },
     {
-      referencia: 'IDEAM. (2018). Protocolo de monitoreo del agua. Obtenido de',
-      link:
-        'https://corpouraba.gov.co/wp-content/uploads/2.-PROTOCOLO_MONITOREO_AGUA_IDEAM.pdf',
+      referencia: 'IDEAM. (2018). Protocolo de monitoreo del agua.',
+      link: '',
     },
     {
       referencia:

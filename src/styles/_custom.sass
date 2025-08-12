@@ -68,7 +68,8 @@ figcaption
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/fondo-banner-principal3.png") !important
 
-
+.bloque-texto-b:before
+  bottom: -5px
 
 /// AJUSTE ESPACIO RESPOSINVE
 .espacios__moviles
@@ -267,30 +268,10 @@ figcaption
 /// TEMA 1
 
 /// BLOQUE 0 ------------------------------------
+
 .bloque-texto-b.color-primario:before
   background-color: $color-adicional-8
-.bloque-texto-b__texto
-  height: 170px !important
-  @media screen and (max-width: 576px)
-    height: 270px !important
-  @media screen and (min-width: 1400px)
-    height: 210px !important
-.bloque-texto-b:before
-  content: '(Ministerio del Ambiente, 2014)'
-  display: block
-  position: absolute
-  top: 75%
-  bottom: 0
-  left: 35%
-  right: 0
-  padding-top: 0.5rem
-  padding-right: 1rem
-  text-align: right
-  @media screen and (max-width: 576px)
-    height: 65px !important
-  @media screen and (min-width: 1400px)
-    top: 75%
-    padding: 1rem 1rem 0rem 0rem
+
 .estilo__caja_3
   background-color: $color-adicional-4
   padding: 1rem 0.5rem 0rem 0.5rem
@@ -345,8 +326,6 @@ figcaption
       padding: 2rem 
     @media screen and (max-width: 576px)
       padding: 2rem
-  img
-    margin-left: -1rem !important
   @media screen and (max-width: 1200px)
     margin: 4rem 0rem 4rem 2rem
   @media screen and (max-width: 576px)
@@ -377,35 +356,6 @@ figcaption
   background-color: $color-adicional-5
 .tarjeta--boton:hover
   background-color: $color-adicional-4
-
-.ajuste__cita
-  height: 290px !important
-  @media screen and (max-width: 992px)
-    height: 290px !important
-  @media screen and (min-width: 1400px)
-    height: 250px !important
-.ajuste__cita:before
-  content: '(Ministerio del Ambiente, 2014)'
-  display: block
-  position: absolute
-  top: 82%
-  bottom: 0
-  left: 35%
-  right: 0
-  padding-top: 0.6rem
-  padding-right: 1rem
-  text-align: right
-  @media screen and (max-width: 576px)
-    height: 65px !important
-  @media screen and (min-width: 1400px)
-    top: 80%
-    padding: 0.7rem 1rem 0rem 0rem
-.ajuste__cita_movil
-  @media screen and (max-width: 576px)
-    height: 620px !important
-.ajuste__cita_movil_2
-  @media screen and (max-width: 576px)
-    height: 450px !important
 
 .estilo__caja_6
   background-color: $color-adicional-6
@@ -531,19 +481,11 @@ figcaption
 .acordion__accion__btn--a
   background-color: $color-acento-botones
 .acordeonA
-  position: relative
   background-color: $color-adicional-4
-  width: 100%
-  @media screen and (max-width: 1200px)
-    width: 100%
-  p
-    padding-left: 3.5rem
 .acordion__activo
   background-color: $color-adicional-8
   h3
     color: black !important
-  p
-    padding-left: 4.4rem
 .ajuste-cajaAcordion
   padding: 0rem 1rem 0rem 0rem
   ul
